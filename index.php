@@ -29,8 +29,8 @@
   <div class="row">
     <div class="12-large large-centered columns ">
       <h2>Outlines</h3>
-      <h3><a href="<?php echo $root ?>outlines/Dubspot%20Master/">ds</a></h3>
-      <h3><a href="<?php echo $root ?>outlines/server_info/">server_info</a></h3>
+      <h3><a href="<?php echo $root ?>outlines/dubspot_projects/">Projects</a></h3>
+      <h3><a href="<?php echo $root ?>outlines/dubspot_servers/">server_info</a></h3>
     </div>
   </div>
 
