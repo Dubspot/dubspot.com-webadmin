@@ -2,7 +2,7 @@
 include 'functions.php';
 $json = json_decode(file_get_contents(latestVersion()),true);
 $link_tracking = "?c1=Newsletter&amp;source=" . date('My') . "&amp;kw=" . date('My') . "_" . $json['short_name'];
-$image_folder = strtolower("2014-".date('M')."-extensive");
+$image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("2014-".date('m')."-extensive");
 ?>
 
 
@@ -165,7 +165,7 @@ $image_folder = strtolower("2014-".date('M')."-extensive");
                                 <tr>
                                   <td style="text-align: center;">
                                     <a href="<?php echo $json['main_story_link'] ?><?php echo $link_tracking ?>">
-                                      <img src="http://dubspot.com/email-images/<?php echo $image_folder ?>/main_01.jpg" width="437" style="margin: 0 auto;" alt="">
+                                      <img src="<?php echo $image_folder ?>/main_01.jpg" width="437" style="margin: 0 auto;" alt="">
                                     </a>
                                   </td>
                                 </tr>
@@ -218,7 +218,7 @@ $image_folder = strtolower("2014-".date('M')."-extensive");
                                         <tr>
                                           <td style="text-align: center;">
                                             <a href="<?php echo $json['main_story_right_link'] ?><?php echo $link_tracking ?>" style="color: <?php echo $json['hex_color'] ?>; text-decoration: none;">
-                                              <img src="http://dubspot.com/email-images/<?php echo $image_folder ?>/main_02.jpg" width="300" style="margin: 0 auto;" alt="">
+                                              <img src="<?php echo $image_folder ?>/main_02.jpg" width="300" style="margin: 0 auto;" alt="">
                                             </a>
                                           </td>
                                         </tr>
@@ -272,7 +272,7 @@ $image_folder = strtolower("2014-".date('M')."-extensive");
                                         <tr>
                                           <td style="padding: 2px 0 4px 1px; vertical-align: top; ">
                                             <a href="<?php echo $json['events_link'] ?><?php echo $link_tracking ?>" style="color: #e5b717; text-decoration: none;">
-                                             <img src="http://dubspot.com/email-images/<?php echo $image_folder ?>/sidebar_events_01.jpg" width="75" height="75" alt="">
+                                             <img src="<?php echo $image_folder ?>/sidebar_events_01.jpg" width="75" height="75" alt="">
                                             </a>
                                           </td>
                                           <td valign="top" style="color:white; padding: 0 0 0 10px; ">
@@ -357,7 +357,7 @@ $image_folder = strtolower("2014-".date('M')."-extensive");
                                     <tbody>
                                       <tr>
                                         <td style="padding: 4px 0 0 4px; vertical-align: top;" >
-                                          <img src="http://dubspot.com/email-images/<?php echo $image_folder ?>/_icons/<?php echo $json['course_1_icon'] ?>.png" width="33" height="33" alt="" style="padding-top: 4px;">
+                                          <img src="<?php echo $image_folder ?>/_icons/<?php echo $json['course_1_icon'] ?>.png" width="33" height="33" alt="" style="padding-top: 4px;">
                                         </td>
                                         <td valign="top" style="color:white; padding: 0 0 0 10px; ">
                                           <a href="<?php echo $json['course_1_link'] ?><?php echo $link_tracking ?>" style="text-decoration: none;">
@@ -389,7 +389,7 @@ $image_folder = strtolower("2014-".date('M')."-extensive");
                                     <tbody>
                                       <tr>
                                         <td style="padding: 4px 0 0 4px; vertical-align: top;" >
-                                          <img src="http://dubspot.com/email-images/<?php echo $image_folder ?>/_icons/<?php echo $json['course_2_icon'] ?>.png" width="33" height="33" alt="" style="padding-top: 4px;">
+                                          <img src="<?php echo $image_folder ?>/_icons/<?php echo $json['course_2_icon'] ?>.png" width="33" height="33" alt="" style="padding-top: 4px;">
                                         </td>
                                         <td valign="top" style="color:white; padding: 0 0 0 10px; ">
                                           <a href="<?php echo $json['course_2_link'] ?><?php echo $link_tracking ?>" style="text-decoration: none;">
@@ -423,7 +423,7 @@ $image_folder = strtolower("2014-".date('M')."-extensive");
                                     <tbody>
                                       <tr>
                                         <td style="padding: 4px 0 0 4px; vertical-align: top;" >
-                                          <img src="http://dubspot.com/email-images/<?php echo $image_folder ?>/_icons/<?php echo $json['course_3_icon'] ?>.png" width="33" height="33" alt="" style="padding-top: 4px;">
+                                          <img src="<?php echo $image_folder ?>/_icons/<?php echo $json['course_3_icon'] ?>.png" width="33" height="33" alt="" style="padding-top: 4px;">
                                         </td>
                                         <td valign="top" style="color:white; padding: 0 0 0 10px; ">
                                           <a href="<?php echo $json['course_3_link'] ?><?php echo $link_tracking ?>" style="text-decoration: none;">
@@ -454,7 +454,7 @@ $image_folder = strtolower("2014-".date('M')."-extensive");
                                     <tbody>
                                       <tr>
                                         <td style="padding: 4px 0 0 4px; vertical-align: top;" >
-                                          <img src="http://dubspot.com/email-images/<?php echo $image_folder ?>/_icons/<?php echo $json['course_4_icon'] ?>.png" width="33" height="33" alt="" style="padding-top: 4px;">
+                                          <img src="<?php echo $image_folder ?>/_icons/<?php echo $json['course_4_icon'] ?>.png" width="33" height="33" alt="" style="padding-top: 4px;">
                                         </td>
                                         <td valign="top" style="color:white; padding: 0 0 0 10px; ">
                                           <a href="<?php echo $json['course_4_link'] ?><?php echo $link_tracking ?>" style="text-decoration: none;">
@@ -488,7 +488,7 @@ $image_folder = strtolower("2014-".date('M')."-extensive");
                                     <tbody>
                                       <tr>
                                         <td style="padding: 4px 0 0 4px; vertical-align: top;" >
-                                          <img src="http://dubspot.com/email-images/<?php echo $image_folder ?>/_icons/<?php echo $json['course_5_icon'] ?>.png" width="33" height="33" alt="" style="padding-top: 4px;">
+                                          <img src="<?php echo $image_folder ?>/_icons/<?php echo $json['course_5_icon'] ?>.png" width="33" height="33" alt="" style="padding-top: 4px;">
                                         </td>
                                         <td valign="top" style="color:white; padding: 0 0 0 10px; ">
                                           <a href="<?php echo $json['course_5_link'] ?><?php echo $link_tracking ?>" style="text-decoration: none;">
@@ -519,7 +519,7 @@ $image_folder = strtolower("2014-".date('M')."-extensive");
                                     <tbody>
                                       <tr>
                                         <td style="padding: 4px 0 0 4px; vertical-align: top;" >
-                                          <img src="http://dubspot.com/email-images/<?php echo $image_folder ?>/_icons/<?php echo $json['course_6_icon'] ?>.png" width="33" height="33" alt="" style="padding-top: 4px;">
+                                          <img src="<?php echo $image_folder ?>/_icons/<?php echo $json['course_6_icon'] ?>.png" width="33" height="33" alt="" style="padding-top: 4px;">
                                         </td>
                                         <td valign="top" style="color:white; padding: 0 0 0 10px; ">
                                           <a href="<?php echo $json['course_6_link'] ?><?php echo $link_tracking ?>" style="text-decoration: none;">
@@ -553,7 +553,7 @@ $image_folder = strtolower("2014-".date('M')."-extensive");
                                     <tbody>
                                       <tr>
                                         <td style="padding: 4px 0 0 4px; vertical-align: top;" >
-                                          <img src="http://dubspot.com/email-images/<?php echo $image_folder ?>/_icons/<?php echo $json['course_7_icon'] ?>.png" width="33" height="33" alt="" style="padding-top: 4px;">
+                                          <img src="<?php echo $image_folder ?>/_icons/<?php echo $json['course_7_icon'] ?>.png" width="33" height="33" alt="" style="padding-top: 4px;">
                                         </td>
                                         <td valign="top" style="color:white; padding: 0 0 0 10px; ">
                                           <a href="<?php echo $json['course_7_link'] ?><?php echo $link_tracking ?>" style="text-decoration: none;">
@@ -584,7 +584,7 @@ $image_folder = strtolower("2014-".date('M')."-extensive");
                                     <tbody>
                                       <tr>
                                         <td style="padding: 4px 0 0 4px; vertical-align: top;" >
-                                          <img src="http://dubspot.com/email-images/<?php echo $image_folder ?>/_icons/<?php echo $json['course_8_icon'] ?>.png" width="33" height="33" alt="" style="padding-top: 4px;">
+                                          <img src="<?php echo $image_folder ?>/_icons/<?php echo $json['course_8_icon'] ?>.png" width="33" height="33" alt="" style="padding-top: 4px;">
                                         </td>
                                         <td valign="top" style="color:white; padding: 0 0 0 10px; ">
                                           <a href="<?php echo $json['course_8_link'] ?><?php echo $link_tracking ?>" style="text-decoration: none;">
@@ -618,7 +618,7 @@ $image_folder = strtolower("2014-".date('M')."-extensive");
                                     <tbody>
                                       <tr>
                                         <td style="padding: 4px 0 0 4px; vertical-align: top;" >
-                                          <img src="http://dubspot.com/email-images/<?php echo $image_folder ?>/_icons/<?php echo $json['course_9_icon'] ?>.png" width="33" height="33" alt="" style="padding-top: 4px;">
+                                          <img src="<?php echo $image_folder ?>/_icons/<?php echo $json['course_9_icon'] ?>.png" width="33" height="33" alt="" style="padding-top: 4px;">
                                         </td>
                                         <td valign="top" style="color:white; padding: 0 0 0 10px; ">
                                           <a href="<?php echo $json['course_9_link'] ?><?php echo $link_tracking ?>" style="text-decoration: none;">
@@ -649,7 +649,7 @@ $image_folder = strtolower("2014-".date('M')."-extensive");
                                     <tbody>
                                       <tr>
                                         <td style="padding: 4px 0 0 4px; vertical-align: top;" >
-                                          <img src="http://dubspot.com/email-images/<?php echo $image_folder ?>/_icons/<?php echo $json['course_10_icon'] ?>.png" width="33" height="33" alt="" style="padding-top: 4px;">
+                                          <img src="<?php echo $image_folder ?>/_icons/<?php echo $json['course_10_icon'] ?>.png" width="33" height="33" alt="" style="padding-top: 4px;">
                                         </td>
                                         <td valign="top" style="color:white; padding: 0 0 0 10px; ">
                                           <a href="<?php echo $json['course_10_link'] ?><?php echo $link_tracking ?>" style="text-decoration: none;">
@@ -969,7 +969,7 @@ $image_folder = strtolower("2014-".date('M')."-extensive");
                                         <tr>
                                           <td style="margin-right: 12px; padding: 11px 0 10px 2px; border-bottom: 2px solid #333333;">
                                             <a href="<?php echo $json['tutorial_1_link'] ?><?php echo $link_tracking ?>">
-                                              <img src="http://dubspot.com/email-images/<?php echo $image_folder ?>/sidebar_tutorial_01.jpg" width="75" height="75" alt="">
+                                              <img src="<?php echo $image_folder ?>/sidebar_tutorial_01.jpg" width="75" height="75" alt="">
                                             </a>
                                           </td>
                                           <td valign="top" style="padding: 10px 0 10px 12px; border-bottom: 2px solid #333333; ">
@@ -991,7 +991,7 @@ $image_folder = strtolower("2014-".date('M')."-extensive");
                                         <tr>
                                           <td style="margin-right: 12px; padding: 11px 0 10px 2px; border-bottom: 2px solid #333333;">
                                             <a href="<?php echo $json['tutorial_2_link'] ?><?php echo $link_tracking ?>">
-                                              <img src="http://dubspot.com/email-images/<?php echo $image_folder ?>/sidebar_tutorial_02.jpg" width="75" height="75" alt="">
+                                              <img src="<?php echo $image_folder ?>/sidebar_tutorial_02.jpg" width="75" height="75" alt="">
                                             </a>
                                           </td>
                                           <td valign="top" style="padding: 10px 0 10px 12px; border-bottom: 2px solid #333333; ">
@@ -1013,7 +1013,7 @@ $image_folder = strtolower("2014-".date('M')."-extensive");
                                         <tr>
                                           <td style="margin-right: 12px; padding: 11px 0 10px 2px; border-bottom: 2px solid #333333;">
                                             <a href="<?php echo $json['tutorial_3_link'] ?><?php echo $link_tracking ?>">
-                                              <img src="http://dubspot.com/email-images/<?php echo $image_folder ?>/sidebar_tutorial_03.jpg" width="75" height="75" alt="">
+                                              <img src="<?php echo $image_folder ?>/sidebar_tutorial_03.jpg" width="75" height="75" alt="">
                                             </a>
                                           </td>
                                           <td valign="top" style="padding: 10px 0 10px 12px; border-bottom: 2px solid #333333; ">
@@ -1035,7 +1035,7 @@ $image_folder = strtolower("2014-".date('M')."-extensive");
                                         <tr>
                                           <td style="margin-right: 12px; padding: 11px 0 10px 2px; border-bottom: 2px solid #333333;">
                                             <a href="<?php echo $json['tutorial_4_link'] ?><?php echo $link_tracking ?>">
-                                              <img src="http://dubspot.com/email-images/<?php echo $image_folder ?>/sidebar_tutorial_04.jpg" width="75" height="75" alt="">
+                                              <img src="<?php echo $image_folder ?>/sidebar_tutorial_04.jpg" width="75" height="75" alt="">
                                             </a>
                                           </td>
                                           <td valign="top" style="padding: 10px 0 10px 12px; border-bottom: 2px solid #333333; ">
@@ -1057,7 +1057,7 @@ $image_folder = strtolower("2014-".date('M')."-extensive");
                                         <tr>
                                           <td style="margin-right: 12px; padding: 11px 0 10px 2px; border-bottom: 2px solid #333333;">
                                             <a href="<?php echo $json['tutorial_5_link'] ?><?php echo $link_tracking ?>">
-                                              <img src="http://dubspot.com/email-images/<?php echo $image_folder ?>/sidebar_tutorial_05.jpg" width="75" height="75" alt="">
+                                              <img src="<?php echo $image_folder ?>/sidebar_tutorial_05.jpg" width="75" height="75" alt="">
                                             </a>
                                           </td>
                                           <td valign="top" style="padding: 10px 0 10px 12px; border-bottom: 2px solid #333333; ">
@@ -1093,7 +1093,7 @@ $image_folder = strtolower("2014-".date('M')."-extensive");
                                         <tr>
                                           <td style="margin-right: 12px; padding: 11px 0 10px 2px; border-bottom: 2px solid #333333;">
                                             <a href="<?php echo $json['artist_1_link'] ?><?php echo $link_tracking ?>">
-                                              <img src="http://dubspot.com/email-images/<?php echo $image_folder ?>/sidebar_artist_01.jpg" width="75" height="75" alt="">
+                                              <img src="<?php echo $image_folder ?>/sidebar_artist_01.jpg" width="75" height="75" alt="">
                                             </a>
                                           </td>
                                           <td valign="top" style="padding: 10px 0 10px 12px; border-bottom: 2px solid #333333; ">
@@ -1115,7 +1115,7 @@ $image_folder = strtolower("2014-".date('M')."-extensive");
                                         <tr>
                                           <td style="margin-right: 12px; padding: 11px 0 10px 2px; border-bottom: 2px solid #333333;">
                                             <a href="<?php echo $json['artist_2_link'] ?><?php echo $link_tracking ?>">
-                                              <img src="http://dubspot.com/email-images/<?php echo $image_folder ?>/sidebar_artist_02.jpg" width="75" height="75" alt="">
+                                              <img src="<?php echo $image_folder ?>/sidebar_artist_02.jpg" width="75" height="75" alt="">
                                             </a>
                                           </td>
                                           <td valign="top" style="padding: 10px 0 10px 12px; border-bottom: 2px solid #333333; ">
@@ -1137,7 +1137,7 @@ $image_folder = strtolower("2014-".date('M')."-extensive");
                                         <tr>
                                           <td style="margin-right: 12px; padding: 11px 0 10px 2px; border-bottom: 2px solid #333333;">
                                             <a href="<?php echo $json['artist_3_link'] ?><?php echo $link_tracking ?>">
-                                              <img src="http://dubspot.com/email-images/<?php echo $image_folder ?>/sidebar_artist_03.jpg" width="75" height="75" alt="">
+                                              <img src="<?php echo $image_folder ?>/sidebar_artist_03.jpg" width="75" height="75" alt="">
                                             </a>
                                           </td>
                                           <td valign="top" style="padding: 10px 0 10px 12px; border-bottom: 2px solid #333333; ">
@@ -1170,7 +1170,7 @@ $image_folder = strtolower("2014-".date('M')."-extensive");
                                         <tr>
                                           <td style="margin-right: 12px; padding: 9px 0 8px 2px; border-bottom: 2px solid #333333;">
                                             <a href="<?php echo $json['tech_1_link'] ?><?php echo $link_tracking ?>">
-                                              <img src="http://dubspot.com/email-images/<?php echo $image_folder ?>/sidebar_tech_01.jpg" width="75" height="75" alt="">
+                                              <img src="<?php echo $image_folder ?>/sidebar_tech_01.jpg" width="75" height="75" alt="">
                                             </a>
                                           </td>
                                           <td valign="top" style="padding: 9px 0 10px 12px; border-bottom: 2px solid #333333; ">
@@ -1192,7 +1192,7 @@ $image_folder = strtolower("2014-".date('M')."-extensive");
                                         <tr>
                                           <td style="margin-right: 12px; padding: 9px 0 8px 2px; border-bottom: 2px solid #333333;">
                                             <a href="<?php echo $json['tech_2_link'] ?><?php echo $link_tracking ?>">
-                                              <img src="http://dubspot.com/email-images/<?php echo $image_folder ?>/sidebar_tech_02.jpg" width="75" height="75" alt="">
+                                              <img src="<?php echo $image_folder ?>/sidebar_tech_02.jpg" width="75" height="75" alt="">
                                             </a>
                                           </td>
                                           <td valign="top" style="padding: 9px 0 10px 12px; border-bottom: 2px solid #333333; ">
@@ -1257,19 +1257,19 @@ $image_folder = strtolower("2014-".date('M')."-extensive");
                           </td>
                           <td style="padding-top: 20px;">
                             <a style="text-decoration: none;" href="http://www.dubspot.com/music-foundations/<?php echo $link_tracking ?>">
-                              <img src="http://dubspot.com/email-images/<?php echo $image_folder ?>/_icons/mf.png" style="margin-right: 5px;" width="35" alt="">
+                              <img src="<?php echo $image_folder ?>/_icons/mf.png" style="margin-right: 5px;" width="35" alt="">
                             </a>
                             <a style="text-decoration: none;" href="http://www.dubspot.com/dj/<?php echo $link_tracking ?>">
-                              <img src="http://dubspot.com/email-images/<?php echo $image_folder ?>/_icons/dj.png" style="margin-right: 5px;" width="35" alt="">
+                              <img src="<?php echo $image_folder ?>/_icons/dj.png" style="margin-right: 5px;" width="35" alt="">
                             </a>
                             <a style="text-decoration: none;" href="http://www.dubspot.com/music-production<?php echo $link_tracking ?>">
-                              <img src="http://dubspot.com/email-images/<?php echo $image_folder ?>/_icons/mp.png" style="margin-right: 5px;" width="35" alt="">
+                              <img src="<?php echo $image_folder ?>/_icons/mp.png" style="margin-right: 5px;" width="35" alt="">
                             </a>
                             <a style="text-decoration: none;" href="http://www.dubspot.com/sound-design/<?php echo $link_tracking ?>">
-                              <img src="http://dubspot.com/email-images/<?php echo $image_folder ?>/_icons/sd.png" style="margin-right: 5px;" width="35" alt="">
+                              <img src="<?php echo $image_folder ?>/_icons/sd.png" style="margin-right: 5px;" width="35" alt="">
                             </a>
                             <a style="text-decoration: none;" href="http://www.dubspot.com/mixing-mastering/<?php echo $link_tracking ?>">
-                              <img src="http://dubspot.com/email-images/<?php echo $image_folder ?>/_icons/mm.png" width="35" alt="">
+                              <img src="<?php echo $image_folder ?>/_icons/mm.png" width="35" alt="">
                             </a>
                           </td>
                           <td style="padding: 20px 0 0 3px;">
