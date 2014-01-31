@@ -2,7 +2,7 @@
 include 'functions.php';
 $json = json_decode(file_get_contents(latestVersion()),true);
 $link_tracking = "?c1=Newsletter&amp;source=" . date('My') . "&amp;kw=" . date('My') . "_" . $json['short_name'];
-$image_folder = strtolower("2014-".date('M')."-promo");
+$image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("2014-".date('m')."-promo");
 ?>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
@@ -112,7 +112,7 @@ $image_folder = strtolower("2014-".date('M')."-promo");
 
 
 
-        <a class="announcement-banner" href="http://www.dubspot.com/sale<?php echo $link_tracking ?>" style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;background-image: url(http://dubspot.com/email-images/<?php echo $image_folder ?>/header.jpg);display: block;height: 255px;width: 760px;background-size: 760px;background-repeat: no-repeat;"></a><!-- end .announcement-banner -->
+        <a class="announcement-banner" href="http://www.dubspot.com/sale<?php echo $link_tracking ?>" style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;background-image: url(<?php echo $image_folder ?>/header.jpg);display: block;height: 255px;width: 760px;background-size: 760px;background-repeat: no-repeat;"></a><!-- end .announcement-banner -->
 
         
 
