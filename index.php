@@ -26,5 +26,13 @@
     </div>
   </div>
 
+  <div class="row">
+    <div class="12-large large-centered columns ">
+      <h2>Outlines</h3>
+      <h3><a href="<?php echo $root ?>dubspot_master/">ds</a></h3>
+      <h3><a href="<?php echo $root ?>server_info/">server_info</a></h3>
+    </div>
+  </div>
+
     
 <?php include 'footer.php'; ?>
