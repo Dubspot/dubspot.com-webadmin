@@ -109,10 +109,10 @@
                       <h5>Events</h5>
                       <div class="row">
                         <div class="large-2 columns">
-                          <label class="left inline" for="event_1_ribbon">Ribbon:</label>
+                          <label class="left inline" for="events_ribbon">Ribbon:</label>
                         </div>
                         <div class="large-10 columns">
-                          <input type="text" id="event_1_ribbon" name="events_ribbon" placeholder="Event 1 Ribbon" />
+                          <input type="text" id="events_ribbon" name="events_ribbon" placeholder="Events  Ribbon" />
                         </div>
                       </div>
                       <h6>Event 1 (Right)</h6>
