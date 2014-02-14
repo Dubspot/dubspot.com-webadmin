@@ -269,32 +269,95 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
 
                                     <table border="0" cellspacing="0" cellpadding="0" style="padding: 10px;">
                                       <tbody>
+
+
+
                                         <tr>
                                           <td style="padding: 2px 0 4px 1px; vertical-align: top; ">
-                                            <a href="<?php echo $json['events_link'] ?><?php echo $link_tracking ?>" style="color: #e5b717; text-decoration: none;">
+                                            <a href="<?php echo $json['event_1_link'] ?><?php echo $link_tracking ?>" style="color: #e5b717; text-decoration: none;">
                                              <img src="<?php echo $image_folder ?>/sidebar_events_01.jpg" width="75" height="75" alt="">
                                             </a>
                                           </td>
                                           <td valign="top" style="color:white; padding: 0 0 0 10px; ">
-                                            <a href="<?php echo $json['events_link'] ?><?php echo $link_tracking ?>" style="color: white; text-decoration: none;">
+                                            <a href="<?php echo $json['event_1_link'] ?><?php echo $link_tracking ?>" style="color: white; text-decoration: none;">
                                               <h6 style="font-size: 13px; margin: 0 0 3px 0; line-height: 17px;">
 
-                                                <?php echo $json['events_headline'] ?>
+                                                <?php echo $json['event_1_headline'] ?>
 
                                               </h6>
                                             </a>
                                             <p style="font-size: 13px; margin: 0 0 3px 0; line-height: 17px;">
 
-                                              <?php echo $json['events_body'] ?>
+                                              <?php echo $json['event_1_body'] ?>
 
                                             </p>
-                                           <a style="color: <?php echo $json['hex_color'] ?>; margin-top: 0; font-size: 13px;" href="<?php echo $json['events_link'] ?><?php echo $link_tracking ?>">
+                                           <a style="color: <?php echo $json['hex_color'] ?>; margin-top: 0; font-size: 13px;" href="<?php echo $json['event_1_link'] ?><?php echo $link_tracking ?>">
 
                                               Learn More
 
                                             </a>
                                           </td>
                                         </tr>
+
+                                        <?php if(!empty($json['event_2_headline'])) { ?>
+                                        <tr>
+                                          <td style="padding: 2px 0 4px 1px; vertical-align: top; ">
+                                            <a href="<?php echo $json['event_2_link'] ?><?php echo $link_tracking ?>" style="color: #e5b717; text-decoration: none;">
+                                             <img src="<?php echo $image_folder ?>/sidebar_events_02.jpg" width="75" height="75" alt="">
+                                            </a>
+                                          </td>
+                                          <td valign="top" style="color:white; padding: 0 0 0 10px; ">
+                                            <a href="<?php echo $json['event_2_link'] ?><?php echo $link_tracking ?>" style="color: white; text-decoration: none;">
+                                              <h6 style="font-size: 13px; margin: 0 0 3px 0; line-height: 17px;">
+
+                                                <?php echo $json['event_2_headline'] ?>
+
+                                              </h6>
+                                            </a>
+                                            <p style="font-size: 13px; margin: 0 0 3px 0; line-height: 17px;">
+
+                                              <?php echo $json['event_2_body'] ?>
+
+                                            </p>
+                                           <a style="color: <?php echo $json['hex_color'] ?>; margin-top: 0; font-size: 13px;" href="<?php echo $json['event_2_link'] ?><?php echo $link_tracking ?>">
+
+                                              Learn More
+
+                                            </a>
+                                          </td>
+                                        </tr>
+                                        <?php  } ?>
+
+                                        <?php if(!empty($json['event_3_headline'])) { ?>
+                                        <tr>
+                                          <td style="padding: 2px 0 4px 1px; vertical-align: top; ">
+                                            <a href="<?php echo $json['event_3_link'] ?><?php echo $link_tracking ?>" style="color: #e5b717; text-decoration: none;">
+                                             <img src="<?php echo $image_folder ?>/sidebar_events_03.jpg" width="75" height="75" alt="">
+                                            </a>
+                                          </td>
+                                          <td valign="top" style="color:white; padding: 0 0 0 10px; ">
+                                            <a href="<?php echo $json['event_3_link'] ?><?php echo $link_tracking ?>" style="color: white; text-decoration: none;">
+                                              <h6 style="font-size: 13px; margin: 0 0 3px 0; line-height: 17px;">
+
+                                                <?php echo $json['event_3_headline'] ?>
+
+                                              </h6>
+                                            </a>
+                                            <p style="font-size: 13px; margin: 0 0 3px 0; line-height: 17px;">
+
+                                              <?php echo $json['event_3_body'] ?>
+
+                                            </p>
+                                           <a style="color: <?php echo $json['hex_color'] ?>; margin-top: 0; font-size: 13px;" href="<?php echo $json['event_3_link'] ?><?php echo $link_tracking ?>">
+
+                                              Learn More
+
+                                            </a>
+                                          </td>
+                                        </tr>
+                                        <?php  } ?>
+
+
                                       </tbody>
                                     </table>
                                   </td>

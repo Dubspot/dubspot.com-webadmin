@@ -106,39 +106,111 @@
                       </div>
 
                       <br>
-                      <h5>Events (Right)</h5>
+                      <h5>Event 1 (Right)</h5>
                       <div class="row">
                         <div class="large-2 columns">
-                          <label class="left inline" for="events_ribbon">Ribbon:</label>
+                          <label class="left inline" for="event_1_ribbon">Ribbon:</label>
                         </div>
                         <div class="large-10 columns">
-                          <input type="text" id="events_ribbon" name="events_ribbon" placeholder="Events Ribbon" />
+                          <input type="text" id="event_1_ribbon" name="event_1_ribbon" placeholder="Event 1 Ribbon" />
                         </div>
                       </div>
                       <div class="row">
                         <div class="large-2 columns">
-                          <label class="left inline" for="events_headline">Headline:</label>
+                          <label class="left inline" for="event_1_headline">Headline:</label>
                         </div>
                         <div class="large-10 columns">
-                          <input type="text" id="events_headline" name="events_headline" placeholder="Events Headline" />
+                          <input type="text" id="event_1_headline" name="event_1_headline" placeholder="Event 1 Headline" />
                         </div>
                       </div>
                       <div class="row">
                         <div class="large-2 columns">
-                          <label class="left inline" for="events_body">Body:</label>
+                          <label class="left inline" for="event_1_body">Body:</label>
                         </div>
                         <div class="large-10 columns">
-                          <textarea id="events_body" name="events_body" placeholder="Events Content"></textarea>
+                          <textarea id="event_1_body" name="event_1_body" placeholder="Event 1 Content"></textarea>
                         </div>
                       </div>
                       <div class="row">
                         <div class="large-2 columns">
-                          <label class="left inline" for="events_link">Link:</label>
+                          <label class="left inline" for="event_1_link">Link:</label>
                         </div>
                         <div class="large-10 columns">
-                          <input type="url" id="events_link" name="events_link"placeholder="Events URL" />
+                          <input type="url" id="event_1_link" name="event_1_link"placeholder="Event 1 URL" />
                         </div>
                       </div>
+
+
+                      <h5>Event 2 (Right)</h5>
+                      <div class="row">
+                        <div class="large-2 columns">
+                          <label class="left inline" for="event_2_ribbon">Ribbon:</label>
+                        </div>
+                        <div class="large-10 columns">
+                          <input type="text" id="event_2_ribbon" name="event_2_ribbon" placeholder="Event 2 Ribbon" />
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="large-2 columns">
+                          <label class="left inline" for="event_2_headline">Headline:</label>
+                        </div>
+                        <div class="large-10 columns">
+                          <input type="text" id="event_2_headline" name="event_2_headline" placeholder="Event 2 Headline" />
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="large-2 columns">
+                          <label class="left inline" for="event_2_body">Body:</label>
+                        </div>
+                        <div class="large-10 columns">
+                          <textarea id="event_2_body" name="event_2_body" placeholder="Event 2 Content"></textarea>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="large-2 columns">
+                          <label class="left inline" for="event_2_link">Link:</label>
+                        </div>
+                        <div class="large-10 columns">
+                          <input type="url" id="event_2_link" name="event_2_link"placeholder="Event 2 URL" />
+                        </div>
+                      </div>
+
+
+                      <h5>Event 3 (Right)</h5>
+                      <div class="row">
+                        <div class="large-2 columns">
+                          <label class="left inline" for="event_3_ribbon">Ribbon:</label>
+                        </div>
+                        <div class="large-10 columns">
+                          <input type="text" id="event_3_ribbon" name="event_3_ribbon" placeholder="Event 3 Ribbon" />
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="large-2 columns">
+                          <label class="left inline" for="event_3_headline">Headline:</label>
+                        </div>
+                        <div class="large-10 columns">
+                          <input type="text" id="event_3_headline" name="event_3_headline" placeholder="Event 3 Headline" />
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="large-2 columns">
+                          <label class="left inline" for="event_3_body">Body:</label>
+                        </div>
+                        <div class="large-10 columns">
+                          <textarea id="event_3_body" name="event_3_body" placeholder="Event 3  Content"></textarea>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="large-2 columns">
+                          <label class="left inline" for="event_3_link">Link:</label>
+                        </div>
+                        <div class="large-10 columns">
+                          <input type="url" id="event_3_link" name="event_3_link"placeholder="Event 3 URL" />
+                        </div>
+                      </div>
+
+
                     </div>
                   </div>
               </div>
