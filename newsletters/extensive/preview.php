@@ -262,7 +262,7 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
                                     <div class="ribbon" style="background: <?php echo $json['hex_color'] ?>; height: 30px; text-align: left; padding-left: 24px;">
                                       <h2 style="font-size: 16px; padding-top: 7px; margin-top: 0;">
 
-                                        EVENTS
+                                        <?php echo $json['events_ribbon'] ?>
 
                                       </h2>
                                     </div>
