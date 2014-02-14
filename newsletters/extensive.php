@@ -106,7 +106,7 @@
                       </div>
 
                       <br>
-                      <h5>Event 1 (Right)</h5>
+                      <h5>Events</h5>
                       <div class="row">
                         <div class="large-2 columns">
                           <label class="left inline" for="event_1_ribbon">Ribbon:</label>
@@ -115,6 +115,7 @@
                           <input type="text" id="event_1_ribbon" name="event_1_ribbon" placeholder="Event 1 Ribbon" />
                         </div>
                       </div>
+                      <h6>Event 1 (Right)</h6>
                       <div class="row">
                         <div class="large-2 columns">
                           <label class="left inline" for="event_1_headline">Headline:</label>
@@ -141,15 +142,7 @@
                       </div>
 
 
-                      <h5>Event 2 (Right)</h5>
-                      <div class="row">
-                        <div class="large-2 columns">
-                          <label class="left inline" for="event_2_ribbon">Ribbon:</label>
-                        </div>
-                        <div class="large-10 columns">
-                          <input type="text" id="event_2_ribbon" name="event_2_ribbon" placeholder="Event 2 Ribbon" />
-                        </div>
-                      </div>
+                      <h6>Event 2 (Right)</h6>
                       <div class="row">
                         <div class="large-2 columns">
                           <label class="left inline" for="event_2_headline">Headline:</label>
@@ -176,15 +169,7 @@
                       </div>
 
 
-                      <h5>Event 3 (Right)</h5>
-                      <div class="row">
-                        <div class="large-2 columns">
-                          <label class="left inline" for="event_3_ribbon">Ribbon:</label>
-                        </div>
-                        <div class="large-10 columns">
-                          <input type="text" id="event_3_ribbon" name="event_3_ribbon" placeholder="Event 3 Ribbon" />
-                        </div>
-                      </div>
+                      <h6>Event 3 (Right)</h6>
                       <div class="row">
                         <div class="large-2 columns">
                           <label class="left inline" for="event_3_headline">Headline:</label>
