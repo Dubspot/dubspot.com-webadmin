@@ -112,7 +112,7 @@
                           <label class="left inline" for="event_1_ribbon">Ribbon:</label>
                         </div>
                         <div class="large-10 columns">
-                          <input type="text" id="event_1_ribbon" name="event_1_ribbon" placeholder="Event 1 Ribbon" />
+                          <input type="text" id="event_1_ribbon" name="events_ribbon" placeholder="Event 1 Ribbon" />
                         </div>
                       </div>
                       <h6>Event 1 (Right)</h6>

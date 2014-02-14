@@ -267,16 +267,16 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
                                       </h2>
                                     </div>
 
-                                    <table border="0" cellspacing="0" cellpadding="0" style="padding: 10px;">
+                                    <table border="0" cellspacing="0" cellpadding="0" style="padding: 0 10px 0 10px;">
                                       <tbody>
 
                                         <tr>
-                                          <td style="margin-right: 12px; padding: 9px 0 8px 2px; border-bottom: 2px solid #333333;">
+                                          <td style="margin-right: 12px; padding: 11px 0 8px 2px; border-bottom: 2px solid #333333;">
                                             <a href="<?php echo $json['event_1_link'] ?><?php echo $link_tracking ?>" style="color: #e5b717; text-decoration: none;">
                                              <img src="<?php echo $image_folder ?>/sidebar_events_01.jpg" width="75" height="75" alt="">
                                             </a>
                                           </td>
-                                          <td valign="top" style="padding: 9px 0 10px 12px; border-bottom: 2px solid #333333; ">
+                                          <td valign="top" style="padding: 11px 0 10px 12px; border-bottom: 2px solid #333333; ">
                                             <a href="<?php echo $json['event_1_link'] ?><?php echo $link_tracking ?>" style="color: white; text-decoration: none;">
                                               <h6 style="font-size: 13px; margin: 0 0 3px 0; line-height: 17px;">
 
