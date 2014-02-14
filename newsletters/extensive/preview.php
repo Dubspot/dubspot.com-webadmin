@@ -1,4 +1,4 @@
-<?php 
+<?php
 include 'functions.php';
 $json = json_decode(file_get_contents(latestVersion()),true);
 $link_tracking = "?c1=Newsletter&amp;source=" . date('My') . "&amp;kw=" . date('My') . "_" . $json['short_name'];
@@ -12,7 +12,7 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
       <title>Dubspot Newsletter | <?php echo date('F Y') ?></title>
       <link rel="stylesheet" href="">
   </head>
-  <body bgcolor="#ffffff" style=""> 
+  <body bgcolor="#ffffff" style="">
     <table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#ffffff" style="font-family: Helvetica, Arial, sans-serif;">
       <tbody>
         <tr>
@@ -23,10 +23,10 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
                 <!--=======================================================
                 =                         HEADER Row                      =
                 =========================================================-->
-            
+
                 <tr>
                   <td>
-                    <table class="header" width="825" align="center" border="0" cellpadding="0" cellspacing="0">   
+                    <table class="header" width="825" align="center" border="0" cellpadding="0" cellspacing="0">
                       <tbody>
                         <tr>
                           <td class="logo" valign="top" bgcolor="#FFFFFF">
@@ -83,9 +83,9 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
                             </table>
                             <div style="color:#FFFFFF;background-color:#FFFFFF;line-height:5px;font-size:1px;">.</div>
                             <div style="color:#000000;background-color:#FFFFFF;line-height:12px;font-size:12px;font-family: Helvetica, Arial, sans-serif; padding-left: 0px;">
-                          
+
                               Dubspot Open House - Sundays 11am + 12pm
-                          
+
                             </div>
                             <div style="color:#FFFFFF;background-color:#FFFFFF;line-height:15px;font-size:1px;">.</div>
                             <!-- Social End -->
@@ -97,7 +97,7 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
                 </tr>
 
                 <!--========== End of HEADER Row  ===========-->
-            
+
 
 
 
@@ -114,18 +114,18 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
                 <tr>
                   <td valign="middle" bgcolor="#000000" width="800" style="color: white; text-align: right; padding-right: 48px; padding-top: 10px; padding-bottom: 10px;font-family: Helvetica, Arial, sans-serif;">
                     <h1 style="font-weight: 500; font-size: 17px; margin: 0;">
-                    
+
                       Dubspot Newsletter |  <?php echo date('F Y') ?>
-                    
+
                     </h1>
                   </td>
                 </tr>
 
                 <!--=============== End of BLACK BAR Row  ================-->
-            
-      
 
-                
+
+
+
 
 
 
@@ -145,13 +145,13 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
                 <!--=======================================================
                 =                       MAIN CONTENT Row                  =
                 =========================================================-->
-                
+
                 <tr>
                   <td>
-                    <table class="main-content" border="0" cellpadding="0" cellspacing="10">   
+                    <table class="main-content" border="0" cellpadding="0" cellspacing="10">
                       <tbody>
                         <tr>
-                          <td id="feat-article" valign="top" bgcolor="#000000" height="400">                      
+                          <td id="feat-article" valign="top" bgcolor="#000000" height="400">
                             <div class="ribbon" style="background: <?php echo $json['hex_color'] ?>; height: 30px; margin-top: 0; text-align: left; padding-left: 24px;">
                               <h2 style="font-size: 16px; padding-top: 7px; margin-top: 0;">
 
@@ -187,7 +187,7 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
                                     <p style="margin: 8px 0 0 0; font-size: 13px; line-height: 18px;font-weight: 300;">
 
                                       <?php echo $json['main_story_body'] ?>
-  
+
                                       <br>
                                       <a href="<?php echo $json['main_story_link'] ?><?php echo $link_tracking ?>" style="color: <?php echo $json['hex_color'] ?>;">
                                         Learn More
@@ -198,14 +198,14 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
                               </tbody>
                             </table>
                           </td>
-        
+
                           <td class="horizontal-spacer" valign="top" bgcolor="#f4f4f4" height="25"></td>
 
                           <td class="main-sidebar" valign="top" bgcolor="#FFFFFF" height="400">
                             <table border="0" cellspacing="0" cellpadding="0">
                               <tbody>
                                 <tr>
-                                  <td id="main-sidebar-top" valign="top" bgcolor="#000000" height="195">                               
+                                  <td id="main-sidebar-top" valign="top" bgcolor="#000000" height="195">
                                     <div class="ribbon" style="background: <?php echo $json['hex_color'] ?>; height: 30px; text-align: left; padding-left: 24px;">
                                       <h2 style="font-size: 16px; padding-top: 7px; margin-top: 0;">
 
@@ -226,9 +226,9 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
                                           <td style="color: <?php echo $json['hex_color'] ?>; padding-left: 4px;">
                                             <a href="<?php echo $json['main_story_right_link'] ?><?php echo $link_tracking ?>" style="color: <?php echo $json['hex_color'] ?>; text-decoration: none;">
                                               <h3 style="margin: 8px 0 0 0; line-height: 24px; font-weight: 500;">
-                                              
+
                                                 <?php echo $json['main_story_right_headline'] ?>
-                                              
+
                                               </h3>
                                             </a>
                                           </td>
@@ -236,14 +236,14 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
                                         <tr>
                                           <td style="color: #FFFFFF; padding-left: 4px;">
                                             <p style="margin: 8px 0 0 0; padding-bottom: px; font-size: 13px; line-height: 18px; font-weight: 300;">
-                                          
+
                                               <?php echo $json['main_story_right_body'] ?>
-                                            
+
                                             </p>
                                             <a style="color: <?php echo $json['hex_color'] ?>; margin-top: 0; font-size: 13px;" href="<?php echo $json['main_story_right_link'] ?><?php echo $link_tracking ?>">
-                                            
+
                                               Learn More
-                                            
+
                                             </a>
                                           </td>
                                         </tr>
@@ -251,14 +251,14 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
                                     </table>
                                   </td>
                                 </tr>
-                                
+
                                 <tr>
                                   <td class="vertical-spacer" valign="top" bgcolor="#f4f4f4" width="275" height="10"></td>
                                 </tr>
-                                
+
                                 <tr>
-                                  <td id="main-sidebar-bottom" valign="top" bgcolor="#000000" width="275">  
-     
+                                  <td id="main-sidebar-bottom" valign="top" bgcolor="#000000" width="275">
+
                                     <div class="ribbon" style="background: <?php echo $json['hex_color'] ?>; height: 30px; text-align: left; padding-left: 24px;">
                                       <h2 style="font-size: 16px; padding-top: 7px; margin-top: 0;">
 
@@ -284,9 +284,9 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
                                               </h6>
                                             </a>
                                             <p style="font-size: 13px; margin: 0 0 3px 0; line-height: 17px;">
-    
+
                                               <?php echo $json['events_body'] ?>
-    
+
                                             </p>
                                            <a style="color: <?php echo $json['hex_color'] ?>; margin-top: 0; font-size: 13px;" href="<?php echo $json['events_link'] ?><?php echo $link_tracking ?>">
 
@@ -334,17 +334,17 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
                 <!--=======================================================
                 =                        COURSES Row                      =
                 =========================================================-->
-            
+
                 <tr>
                   <td>
-                    <table align="center" border="0" cellpadding="0" cellspacing="">  
+                    <table align="center" border="0" cellpadding="0" cellspacing="">
                       <tbody>
                         <tr>
                           <td class="courses" align="right" valign="top" bgcolor="#000000" height="400">
 
                             <div class="ribbon" style="background: <?php echo $json['hex_color'] ?>; height: 30px; text-align: left; padding-left: 24px;">
                               <h2 style="font-size: 16px; padding-top: 7px; margin-top: 0;">
-                              
+
                                 UPCOMING COURSES
 
                               </h2>
@@ -416,7 +416,7 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
                                   </table>
                                 </td>
                               </tr>
-                          
+
                               <tr>
                                 <td>
                                   <table border="0" cellspacing="0" cellpadding="0" style="padding: 8px;">
@@ -428,14 +428,14 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
                                         <td valign="top" style="color:white; padding: 0 0 0 10px; ">
                                           <a href="<?php echo $json['course_3_link'] ?><?php echo $link_tracking ?>" style="text-decoration: none;">
                                             <h5 style="color: <?php echo $json['hex_color'] ?>; margin: 5px 0 1px 0; font-size:17px; font-weight: 600;">
-                                            
+
                                               <?php echo $json['course_3_name'] ?>
 
                                             </h5>
                                           </a>
                                           <p style="font-size: 13px; margin: 0 0 3px 0; line-height: 17px;">
                                             <a href="<?php echo $json['course_3_link'] ?><?php echo $link_tracking ?>" style="text-decoration: none; color: white; font-weight: 400;">
-                                              
+
                                               <strong>NYC:</strong> <?php echo $json['course_3_ny_dates'] ?>
                                               <br>
                                               <strong>LA:</strong> <?php echo $json['course_3_la_dates'] ?>
@@ -459,9 +459,9 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
                                         <td valign="top" style="color:white; padding: 0 0 0 10px; ">
                                           <a href="<?php echo $json['course_4_link'] ?><?php echo $link_tracking ?>" style="text-decoration: none;">
                                             <h5 style="color: <?php echo $json['hex_color'] ?>; margin: 5px 0 1px 0; font-size:17px; font-weight: 600;">
-                                            
+
                                               <?php echo $json['course_4_name'] ?>
-                                            
+
                                             </h5>
                                           </a>
                                           <p style="font-size: 13px; margin: 0 0 3px 0; line-height: 17px;">
@@ -481,7 +481,7 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
                                   </table>
                                 </td>
                               </tr>
-                              
+
                               <tr>
                                 <td>
                                   <table border="0" cellspacing="0" cellpadding="0" style="padding: 8px;">
@@ -534,7 +534,7 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
 
                                               <strong>NYC:</strong> <?php echo $json['course_6_ny_dates'] ?>
                                               <br>
-                                              <strong>LA:</strong> <?php echo $json['course_6_la_dates'] ?>                                             
+                                              <strong>LA:</strong> <?php echo $json['course_6_la_dates'] ?>
                                               <br>
                                               <strong>Online:</strong> <?php echo $json['course_6_online_dates'] ?>
 
@@ -546,7 +546,7 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
                                   </table>
                                 </td>
                               </tr>
-                              
+
                               <tr>
                                 <td>
                                   <table border="0" cellspacing="0" cellpadding="0" style="padding: 8px;">
@@ -611,7 +611,7 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
                                   </table>
                                 </td>
                               </tr>
-                              
+
                               <tr>
                                 <td>
                                   <table border="0" cellspacing="0" cellpadding="0" style="padding: 8px;">
@@ -636,7 +636,7 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
                                               <strong>LA:</strong> <?php echo $json['course_9_la_dates'] ?>
                                               <br>
                                               <strong>Online:</strong> <?php echo $json['course_9_online_dates'] ?>
-                                            
+
                                             </a>
                                           </p>
                                         </td>
@@ -678,9 +678,9 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
                                   </table>
                                 </td>
                               </tr>
-                              
 
-                              <tr>            
+
+                              <tr>
                                 <table id="sale-info" border="0" cellspacing="0" cellpadding="0" width="798" style="margin: 0; padding: 8px 8px 16px 8px;">
                                 <tbody>
                                   <tr>
@@ -714,7 +714,7 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
                                 </tbody>
                                 </table>
                               </tr>
-  
+
 
                             <!-- </table> -->
                           </td>
@@ -752,10 +752,10 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
                 <!--=======================================================
                 =                   SECONDARY CONTENT Row                 =
                 =========================================================-->
-                  
+
                 <tr>
                     <td>
-                      <table class="secondary-content" align="center" border="0" cellpadding="0" cellspacing="10">   
+                      <table class="secondary-content" align="center" border="0" cellpadding="0" cellspacing="10">
                         <tbody>
                           <tr>
 
@@ -763,7 +763,7 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
                               <table id="stories" border="0" cellspacing="0" cellpadding="0">
 
 
- 
+
                                   <tr>
                                     <td class="article" valign="top" bgcolor="#f4f4f4" height="170" style="padding-bottom: 35px;">
                                       <table border="0" cellspacing="0" cellpadding="0" style="background: #EBEBEB;">
@@ -793,8 +793,8 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
                                       </table>
                                     </td>
                                   </tr>
-                               
-                                  <?php if(!empty($json['feature_2_headline'])) { ?>                                          
+
+                                  <?php if(!empty($json['feature_2_headline'])) { ?>
                                   <tr>
                                     <td class="article" valign="top" bgcolor="#f4f4f4" height="170" style="padding-bottom: 35px;">
                                       <table border="0" cellspacing="0" cellpadding="0" style="background: #FBFBFB;">
@@ -824,9 +824,9 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
                                       </table>
                                     </td>
                                   </tr>
-                                  <?php  } ?>                                      
-                                  
-                                  <?php if(!empty($json['feature_3_headline'])) { ?>                    
+                                  <?php  } ?>
+
+                                  <?php if(!empty($json['feature_3_headline'])) { ?>
                                   <tr>
                                     <td class="article" valign="top" bgcolor="#f4f4f4" height="170" style="padding-bottom: 35px;">
                                       <table border="0" cellspacing="0" cellpadding="0" style="background: #EBEBEB;">
@@ -837,7 +837,7 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
                                                 <h4 style="font-size: 16px; color: black; margin: 0 0 0 0 ; width: 280px; line-height: 24px;">
 
                                                   <?php echo $json['feature_3_headline'] ?>
-                                                  
+
                                                 </h4>
                                               </a>
                                               <p style="color: #777777; font-size: 13px; margin-top: 8px; padding-right: 14px; line-height: 21px;">
@@ -856,9 +856,9 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
                                       </table>
                                     </td>
                                   </tr>
-                                  <?php  } ?>                                      
-                                 
-                                  <?php if(!empty($json['feature_4_headline'])) { ?>                                            
+                                  <?php  } ?>
+
+                                  <?php if(!empty($json['feature_4_headline'])) { ?>
                                   <tr>
                                     <td class="article" valign="top" bgcolor="#f4f4f4" height="170" style="padding-bottom: 35px;">
                                       <table border="0" cellspacing="0" cellpadding="0" style="background: #FBFBFB;">
@@ -869,7 +869,7 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
                                                 <h4 style="font-size: 16px; color: black; margin: 0 0 0 0 ; width: 280px; line-height: 24px;">
 
                                                   <?php echo $json['feature_4_headline'] ?>
-                                                  
+
                                                 </h4>
                                               </a>
                                               <p style="color: #777777; font-size: 13px; margin-top: 8px; padding-right: 14px; line-height: 21px;">
@@ -888,9 +888,9 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
                                       </table>
                                     </td>
                                   </tr>
-                                  <?php  } ?>                                      
+                                  <?php  } ?>
 
-                                  <?php if(!empty($json['feature_5_headline'])) { ?>        
+                                  <?php if(!empty($json['feature_5_headline'])) { ?>
                                   <tr>
                                     <td class="article" valign="top" bgcolor="#f4f4f4" height="170" style="padding-bottom: 35px;">
                                       <table border="0" cellspacing="0" cellpadding="0" style="background: #EBEBEB;">
@@ -901,11 +901,11 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
                                                 <h4 style="font-size: 16px; color: black; margin: 0 0 0 0 ; width: 280px; line-height: 24px;">
 
                                                   <?php echo $json['feature_5_headline'] ?>
-                                                  
+
                                                 </h4>
                                               </a>
                                               <p style="color: #777777; font-size: 13px; margin-top: 8px; padding-right: 14px; line-height: 21px;">
-  
+
                                                   <?php echo $json['feature_5_body'] ?>
 
                                               </p>
@@ -920,9 +920,9 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
                                       </table>
                                     </td>
                                   </tr>
-                                  <?php  } ?>                                      
-                                  
-                                  <?php if(!empty($json['feature_6_headline'])) { ?>        
+                                  <?php  } ?>
+
+                                  <?php if(!empty($json['feature_6_headline'])) { ?>
                                   <tr>
                                     <td class="article" valign="top" bgcolor="#f4f4f4" height="170" style="padding-bottom: 20px;">
                                       <table border="0" cellspacing="0" cellpadding="0" style="background: #FBFBFB;">
@@ -933,7 +933,7 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
                                                 <h4 style="font-size: 16px; color: black; margin: 0 0 0 0 ; width: 280px; line-height: 24px;">
 
                                                   <?php echo $json['feature_6_headline'] ?>
-                                                  
+
                                                 </h4>
                                               </a>
                                               <p style="color: #777777; font-size: 13px; margin-top: 8px; padding-right: 14px; line-height: 21px;">
@@ -952,7 +952,7 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
                                       </table>
                                     </td>
                                   </tr>
-                                  <?php  } ?>    
+                                  <?php  } ?>
 
                               </table>
                             </td>
@@ -960,7 +960,7 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
                             <td class="horizontal-spacer" valign="top" bgcolor="#f4f4f4" height="25"></td>
 
                             <td class="bottom-sidebar" valign="top" bgcolor="#f4f4f4" >
-                              <table border="0" cellspacing="0" cellpadding="0" width="250"> 
+                              <table border="0" cellspacing="0" cellpadding="0" width="250">
                                 <tbody>
                                   <tr>
                                     <td class="bottom-sidebar-1" valign="top" bgcolor="#000000" height="400">
@@ -968,8 +968,8 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
                                         <h2 style="font-size: 16px; padding-top: 7px; margin-top: 0;">FRESH TUTORIALS</h2>
                                       </div>
                                       <table id="tutorials" border="0" cellspacing="0" cellpadding="" style="padding: 0 10px 0 10px;">
-          
-        
+
+
                                         <tr>
                                           <td style="margin-right: 12px; padding: 11px 0 10px 2px; border-bottom: 2px solid #333333;">
                                             <a href="<?php echo $json['tutorial_1_link'] ?><?php echo $link_tracking ?>">
@@ -990,9 +990,9 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
                                               </p>
                                             </a>
                                           </td>
-                                        </tr>             
+                                        </tr>
 
-                                        <?php if(!empty($json['tutorial_2_headline'])) { ?>                                        
+                                        <?php if(!empty($json['tutorial_2_headline'])) { ?>
                                         <tr>
                                           <td style="margin-right: 12px; padding: 11px 0 10px 2px; border-bottom: 2px solid #333333;">
                                             <a href="<?php echo $json['tutorial_2_link'] ?><?php echo $link_tracking ?>">
@@ -1014,9 +1014,9 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
                                             </a>
                                           </td>
                                         </tr>
-                                        <?php  } ?>                                                         
-                                          
-                                        <?php if(!empty($json['tutorial_3_headline'])) { ?>                                        
+                                        <?php  } ?>
+
+                                        <?php if(!empty($json['tutorial_3_headline'])) { ?>
                                         <tr>
                                           <td style="margin-right: 12px; padding: 11px 0 10px 2px; border-bottom: 2px solid #333333;">
                                             <a href="<?php echo $json['tutorial_3_link'] ?><?php echo $link_tracking ?>">
@@ -1037,10 +1037,10 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
                                               </p>
                                             </a>
                                           </td>
-                                        </tr>             
-                                        <?php  } ?>    
+                                        </tr>
+                                        <?php  } ?>
 
-                                        <?php if(!empty($json['tutorial_4_headline'])) { ?>                                        
+                                        <?php if(!empty($json['tutorial_4_headline'])) { ?>
                                         <tr>
                                           <td style="margin-right: 12px; padding: 11px 0 10px 2px; border-bottom: 2px solid #333333;">
                                             <a href="<?php echo $json['tutorial_4_link'] ?><?php echo $link_tracking ?>">
@@ -1061,10 +1061,10 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
                                               </p>
                                             </a>
                                           </td>
-                                        </tr>             
-                                        <?php  } ?>    
+                                        </tr>
+                                        <?php  } ?>
 
-                                        <?php if(!empty($json['tutorial_5_headline'])) { ?>                                        
+                                        <?php if(!empty($json['tutorial_5_headline'])) { ?>
                                         <tr>
                                           <td style="margin-right: 12px; padding: 11px 0 10px 2px; border-bottom: 2px solid #333333;">
                                             <a href="<?php echo $json['tutorial_5_link'] ?><?php echo $link_tracking ?>">
@@ -1085,8 +1085,8 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
                                               </p>
                                             </a>
                                           </td>
-                                        </tr> 
-                                        <?php  } ?>    
+                                        </tr>
+                                        <?php  } ?>
 
                                       </table>
                                     </td>
@@ -1102,7 +1102,7 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
                                         <h2 style="font-size: 16px; padding-top: 7px; margin-top: 0;">ARTISTS</h2>
                                       </div>
                                       <table id="artists" border="0" cellspacing="0" cellpadding="0" style="padding: 0 10px 0 10px;">
-                                          
+
 
 
                                         <tr>
@@ -1125,8 +1125,8 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
                                               </p>
                                             </a>
                                           </td>
-                                        </tr>             
-                                        
+                                        </tr>
+
                                         <?php if(!empty($json['artist_2_headline'])) { ?>
                                         <tr>
                                           <td style="margin-right: 12px; padding: 11px 0 10px 2px; border-bottom: 2px solid #333333;">
@@ -1149,7 +1149,7 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
                                             </a>
                                           </td>
                                         </tr>
-                                        <?php  } ?>                                            
+                                        <?php  } ?>
 
                                         <?php if(!empty($json['artist_3_headline'])) { ?>
                                         <tr>
@@ -1173,7 +1173,55 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
                                             </a>
                                           </td>
                                         </tr>
-                                        <?php  } ?>                                           
+                                        <?php  } ?>
+
+                                        <?php if(!empty($json['artist_4_headline'])) { ?>
+                                        <tr>
+                                          <td style="margin-right: 12px; padding: 11px 0 10px 2px; border-bottom: 2px solid #333333;">
+                                            <a href="<?php echo $json['artist_4_link'] ?><?php echo $link_tracking ?>">
+                                              <img src="<?php echo $image_folder ?>/sidebar_artist_03.jpg" width="75" height="75" alt="">
+                                            </a>
+                                          </td>
+                                          <td valign="top" style="padding: 10px 0 10px 12px; border-bottom: 2px solid #333333; ">
+                                            <a href="<?php echo $json['artist_4_link'] ?><?php echo $link_tracking ?>" style="color:white; text-decoration: none;">
+                                              <h6 style="font-size: 12px; margin: 0 0 3px 0; line-height: 16px;">
+
+                                                  <?php echo $json['artist_4_headline'] ?>
+
+                                              </h6>
+                                              <p style="font-size: 12px; margin: 0 0 3px 0; line-height: 16px;">
+
+                                                  <?php echo $json['artist_4_body'] ?>
+
+                                              </p>
+                                            </a>
+                                          </td>
+                                        </tr>
+                                        <?php  } ?>
+
+                                        <?php if(!empty($json['artist_5_headline'])) { ?>
+                                        <tr>
+                                          <td style="margin-right: 12px; padding: 11px 0 10px 2px; border-bottom: 2px solid #333333;">
+                                            <a href="<?php echo $json['artist_5_link'] ?><?php echo $link_tracking ?>">
+                                              <img src="<?php echo $image_folder ?>/sidebar_artist_03.jpg" width="75" height="75" alt="">
+                                            </a>
+                                          </td>
+                                          <td valign="top" style="padding: 10px 0 10px 12px; border-bottom: 2px solid #333333; ">
+                                            <a href="<?php echo $json['artist_5_link'] ?><?php echo $link_tracking ?>" style="color:white; text-decoration: none;">
+                                              <h6 style="font-size: 12px; margin: 0 0 3px 0; line-height: 16px;">
+
+                                                  <?php echo $json['artist_5_headline'] ?>
+
+                                              </h6>
+                                              <p style="font-size: 12px; margin: 0 0 3px 0; line-height: 16px;">
+
+                                                  <?php echo $json['artist_5_body'] ?>
+
+                                              </p>
+                                            </a>
+                                          </td>
+                                        </tr>
+                                        <?php  } ?>
 
                                       </table>
                                     </td>
@@ -1186,7 +1234,7 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
                                       <div class="ribbon" style="background: <?php echo $json['hex_color'] ?>; height: 30px; text-align: left; padding-left: 24px;">
                                         <h2 style="font-size: 16px; padding-top: 7px; margin-top: 0;">iOS + TECH ROUNDUP</h2>
                                       </div>
-                                      <table id="tech-articles" border="0" cellspacing="0" cellpadding="0" style="padding: 0 10px 0 10px;">                                        
+                                      <table id="tech-articles" border="0" cellspacing="0" cellpadding="0" style="padding: 0 10px 0 10px;">
 
                                         <tr>
                                           <td style="margin-right: 12px; padding: 9px 0 8px 2px; border-bottom: 2px solid #333333;">
@@ -1204,7 +1252,7 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
                                               </p>
                                             </a>
                                           </td>
-                                        </tr> 
+                                        </tr>
 
                                         <?php if(!empty($json['tech_2_headline'])) { ?>
                                         <tr>
@@ -1215,7 +1263,7 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
                                           </td>
                                           <td valign="top" style="padding: 9px 0 10px 12px; border-bottom: 2px solid #333333; ">
                                             <a href="<?php echo $json['tech_2_link'] ?><?php echo $link_tracking ?>" style="color:white; text-decoration: none;">
-                                              <h6 style="font-size: 12px; margin: 0 0 3px 0; line-height: 16px;"> 
+                                              <h6 style="font-size: 12px; margin: 0 0 3px 0; line-height: 16px;">
                                                  <?php echo $json['tech_2_headline'] ?>
                                               </h6>
                                               <p style="font-size: 12px; margin: 0 0 3px 0; line-height: 16px;">
@@ -1224,9 +1272,9 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
                                             </a>
                                            </td>
                                           </tr>
-                                        <?php  } ?>    
+                                        <?php  } ?>
 
-                                      </table>                           
+                                      </table>
                                     </td>
                                   </tr>
                                 </tbody>
@@ -1249,8 +1297,8 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
 
 
 
-       
-                  
+
+
                 <!--=======================================================
                 =                         FOOTER Row                      =
                 =========================================================-->
