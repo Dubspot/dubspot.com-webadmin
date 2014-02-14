@@ -270,15 +270,13 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
                                     <table border="0" cellspacing="0" cellpadding="0" style="padding: 10px;">
                                       <tbody>
 
-
-
                                         <tr>
-                                          <td style="padding: 2px 0 4px 1px; vertical-align: top; ">
+                                          <td style="margin-right: 12px; padding: 9px 0 8px 2px; border-bottom: 2px solid #333333;">
                                             <a href="<?php echo $json['event_1_link'] ?><?php echo $link_tracking ?>" style="color: #e5b717; text-decoration: none;">
                                              <img src="<?php echo $image_folder ?>/sidebar_events_01.jpg" width="75" height="75" alt="">
                                             </a>
                                           </td>
-                                          <td valign="top" style="color:white; padding: 0 0 0 10px; ">
+                                          <td valign="top" style="padding: 9px 0 10px 12px; border-bottom: 2px solid #333333; ">
                                             <a href="<?php echo $json['event_1_link'] ?><?php echo $link_tracking ?>" style="color: white; text-decoration: none;">
                                               <h6 style="font-size: 13px; margin: 0 0 3px 0; line-height: 17px;">
 
@@ -301,12 +299,12 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
 
                                         <?php if(!empty($json['event_2_headline'])) { ?>
                                         <tr>
-                                          <td style="padding: 2px 0 4px 1px; vertical-align: top; ">
+                                          <td style="margin-right: 12px; padding: 9px 0 8px 2px; border-bottom: 2px solid #333333;">
                                             <a href="<?php echo $json['event_2_link'] ?><?php echo $link_tracking ?>" style="color: #e5b717; text-decoration: none;">
                                              <img src="<?php echo $image_folder ?>/sidebar_events_02.jpg" width="75" height="75" alt="">
                                             </a>
                                           </td>
-                                          <td valign="top" style="color:white; padding: 0 0 0 10px; ">
+                                          <td valign="top" style="padding: 9px 0 10px 12px; border-bottom: 2px solid #333333; ">
                                             <a href="<?php echo $json['event_2_link'] ?><?php echo $link_tracking ?>" style="color: white; text-decoration: none;">
                                               <h6 style="font-size: 13px; margin: 0 0 3px 0; line-height: 17px;">
 
@@ -330,12 +328,12 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
 
                                         <?php if(!empty($json['event_3_headline'])) { ?>
                                         <tr>
-                                          <td style="padding: 2px 0 4px 1px; vertical-align: top; ">
+                                          <td style="margin-right: 12px; padding: 9px 0 8px 2px; border-bottom: 2px solid #333333;">
                                             <a href="<?php echo $json['event_3_link'] ?><?php echo $link_tracking ?>" style="color: #e5b717; text-decoration: none;">
                                              <img src="<?php echo $image_folder ?>/sidebar_events_03.jpg" width="75" height="75" alt="">
                                             </a>
                                           </td>
-                                          <td valign="top" style="color:white; padding: 0 0 0 10px; ">
+                                          <td valign="top" style="padding: 9px 0 10px 12px; border-bottom: 2px solid #333333; ">
                                             <a href="<?php echo $json['event_3_link'] ?><?php echo $link_tracking ?>" style="color: white; text-decoration: none;">
                                               <h6 style="font-size: 13px; margin: 0 0 3px 0; line-height: 17px;">
 
