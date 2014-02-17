@@ -1240,7 +1240,7 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
                                         <tr>
                                           <td style="margin-right: 12px; padding: 11px 0 10px 2px; border-bottom: 2px solid #333333;">
                                             <a href="<?php echo $json['artist_4_link'] ?><?php echo $link_tracking ?>">
-                                              <img src="<?php echo $image_folder ?>/sidebar_artist_03.jpg" width="75" height="75" alt="">
+                                              <img src="<?php echo $image_folder ?>/sidebar_artist_04.jpg" width="75" height="75" alt="">
                                             </a>
                                           </td>
                                           <td valign="top" style="padding: 10px 0 10px 12px; border-bottom: 2px solid #333333; ">
@@ -1264,7 +1264,7 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
                                         <tr>
                                           <td style="margin-right: 12px; padding: 11px 0 10px 2px; border-bottom: 2px solid #333333;">
                                             <a href="<?php echo $json['artist_5_link'] ?><?php echo $link_tracking ?>">
-                                              <img src="<?php echo $image_folder ?>/sidebar_artist_03.jpg" width="75" height="75" alt="">
+                                              <img src="<?php echo $image_folder ?>/sidebar_artist_05.jpg" width="75" height="75" alt="">
                                             </a>
                                           </td>
                                           <td valign="top" style="padding: 10px 0 10px 12px; border-bottom: 2px solid #333333; ">
