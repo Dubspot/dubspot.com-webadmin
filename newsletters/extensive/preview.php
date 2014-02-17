@@ -284,7 +284,7 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
 
                                               </h6>
                                             </a>
-                                            <p style="font-size: 13px; margin: 0 0 3px 0; line-height: 17px;">
+                                            <p style="color: white; font-size: 13px; margin: 0 0 3px 0; line-height: 17px;">
 
                                               <?php echo $json['event_1_body'] ?>
 
@@ -312,7 +312,7 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
 
                                               </h6>
                                             </a>
-                                            <p style="font-size: 13px; margin: 0 0 3px 0; line-height: 17px;">
+                                            <p style="color: white; font-size: 13px; margin: 0 0 3px 0; line-height: 17px;">
 
                                               <?php echo $json['event_2_body'] ?>
 
@@ -341,7 +341,7 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
 
                                               </h6>
                                             </a>
-                                            <p style="font-size: 13px; margin: 0 0 3px 0; line-height: 17px;">
+                                            <p style="color: white; font-size: 13px; margin: 0 0 3px 0; line-height: 17px;">
 
                                               <?php echo $json['event_3_body'] ?>
 
