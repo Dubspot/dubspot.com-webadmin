@@ -1079,6 +1079,38 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
                                   </tr>
                                   <?php  } ?>
 
+                                 <?php if(!empty($json['feature_9_headline'])) { ?>
+                                  <tr>
+                                    <td class="article" valign="top" bgcolor="#f4f4f4" height="170" style="padding-bottom: 35px;">
+                                      <table border="0" cellspacing="0" cellpadding="0" style="background: #EBEBEB;">
+                                        <tbody>
+                                          <tr>
+                                            <td valign="top" style="color:white; padding: 8px; ">
+                                              <a href="<?php echo $json['feature_9_link'] ?><?php echo $link_tracking ?>" style="text-decoration: none;">
+                                                <h4 style="font-size: 16px; color: black; margin: 0 0 0 0 ; width: 280px; line-height: 24px;">
+
+                                                  <?php echo $json['feature_9_headline'] ?>
+
+                                                </h4>
+                                              </a>
+                                              <p style="color: #777777; font-size: 13px; margin-top: 8px; padding-right: 14px; line-height: 21px;">
+
+                                                  <?php echo $json['feature_9_body'] ?>
+
+                                              </p>
+                                            </td>
+                                            <td style="text-align: right; padding: 8px;">
+                                              <a href="<?php echo $json['feature_9_link'] ?><?php echo $link_tracking ?>" style="text-decoration: none;">
+                                                <img src="<?php echo $json['feature_9_img'] ?>" width="200" height="150" alt="">
+                                              </a>
+                                            </td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                    </td>
+                                  </tr>
+                                  <?php  } ?>
+
                               </table>
                             </td>
 

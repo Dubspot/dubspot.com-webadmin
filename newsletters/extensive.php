@@ -1184,6 +1184,42 @@
                         </div>
                       </div>
 
+                      <br>
+
+                      <h5>Feature 9</h5>
+                      <div class="row">
+                        <div class="large-2 columns">
+                          <label class="left inline" for="feature_9_headline">Headline:</label>
+                        </div>
+                        <div class="large-10 columns">
+                          <input type="text" id="feature_9_headline" name="feature_9_headline" placeholder="Feature 9 Headline" />
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="large-2 columns">
+                          <label class="left inline" for="feature_9_body">Body:</label>
+                        </div>
+                        <div class="large-10 columns">
+                          <textarea id="feature_9_body" name="feature_9_body" placeholder="Feature 9 Content"></textarea>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="large-2 columns">
+                          <label class="left inline" for="feature_9_link">Link:</label>
+                        </div>
+                        <div class="large-10 columns">
+                          <input type="url" id="feature_9_link" name="feature_9_link"placeholder="Feature 9 URL" />
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="large-2 columns">
+                          <label class="left inline" for="feature_9_img">Image:</label>
+                        </div>
+                        <div class="large-10 columns">
+                          <input type="url" id="feature_9_img" name="feature_9_img"placeholder="Feature 9 Image URL" />
+                        </div>
+                      </div>
+
                     </div>
                   </div>
 
