@@ -1111,6 +1111,79 @@
                         </div>
                       </div>
 
+                      <br>
+
+                      <h5>Feature 7</h5>
+                      <div class="row">
+                        <div class="large-2 columns">
+                          <label class="left inline" for="feature_7_headline">Headline:</label>
+                        </div>
+                        <div class="large-10 columns">
+                          <input type="text" id="feature_7_headline" name="feature_7_headline" placeholder="Feature 7 Headline" />
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="large-2 columns">
+                          <label class="left inline" for="feature_7_body">Body:</label>
+                        </div>
+                        <div class="large-10 columns">
+                          <textarea id="feature_7_body" name="feature_7_body" placeholder="Feature 7 Content"></textarea>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="large-2 columns">
+                          <label class="left inline" for="feature_7_link">Link:</label>
+                        </div>
+                        <div class="large-10 columns">
+                          <input type="url" id="feature_7_link" name="feature_7_link"placeholder="Feature 7 URL" />
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="large-2 columns">
+                          <label class="left inline" for="feature_7_img">Image:</label>
+                        </div>
+                        <div class="large-10 columns">
+                          <input type="url" id="feature_7_img" name="feature_7_img"placeholder="Feature 7 Image URL" />
+                        </div>
+                      </div>
+
+
+                      <br>
+
+                      <h5>Feature 8</h5>
+                      <div class="row">
+                        <div class="large-2 columns">
+                          <label class="left inline" for="feature_8_headline">Headline:</label>
+                        </div>
+                        <div class="large-10 columns">
+                          <input type="text" id="feature_8_headline" name="feature_8_headline" placeholder="Feature 8 Headline" />
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="large-2 columns">
+                          <label class="left inline" for="feature_8_body">Body:</label>
+                        </div>
+                        <div class="large-10 columns">
+                          <textarea id="feature_8_body" name="feature_8_body" placeholder="Feature 8 Content"></textarea>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="large-2 columns">
+                          <label class="left inline" for="feature_8_link">Link:</label>
+                        </div>
+                        <div class="large-10 columns">
+                          <input type="url" id="feature_8_link" name="feature_8_link"placeholder="Feature 8 URL" />
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="large-2 columns">
+                          <label class="left inline" for="feature_8_img">Image:</label>
+                        </div>
+                        <div class="large-10 columns">
+                          <input type="url" id="feature_8_img" name="feature_8_img"placeholder="Feature 8 Image URL" />
+                        </div>
+                      </div>
+
                     </div>
                   </div>
 
