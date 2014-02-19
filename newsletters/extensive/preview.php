@@ -1431,6 +1431,46 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
                                           </tr>
                                         <?php  } ?>
 
+                                        <?php if(!empty($json['tech_3_headline'])) { ?>
+                                        <tr>
+                                          <td style="margin-right: 12px; padding: 9px 0 8px 2px; border-bottom: 2px solid #333333;">
+                                            <a href="<?php echo $json['tech_3_link'] ?><?php echo $link_tracking ?>">
+                                              <img src="<?php echo $image_folder ?>/sidebar_tech_02.jpg" width="75" height="75" alt="">
+                                            </a>
+                                          </td>
+                                          <td valign="top" style="padding: 9px 0 10px 12px; border-bottom: 2px solid #333333; ">
+                                            <a href="<?php echo $json['tech_3_link'] ?><?php echo $link_tracking ?>" style="color:white; text-decoration: none;">
+                                              <h6 style="font-size: 12px; margin: 0 0 3px 0; line-height: 16px;">
+                                                 <?php echo $json['tech_3_headline'] ?>
+                                              </h6>
+                                              <p style="font-size: 12px; margin: 0 0 3px 0; line-height: 16px;">
+                                                  <?php echo $json['tech_3_body'] ?>
+                                              </p>
+                                            </a>
+                                           </td>
+                                          </tr>
+                                        <?php  } ?>
+
+                                        <?php if(!empty($json['tech_4_headline'])) { ?>
+                                        <tr>
+                                          <td style="margin-right: 12px; padding: 9px 0 8px 2px; border-bottom: 2px solid #333333;">
+                                            <a href="<?php echo $json['tech_4_link'] ?><?php echo $link_tracking ?>">
+                                              <img src="<?php echo $image_folder ?>/sidebar_tech_02.jpg" width="75" height="75" alt="">
+                                            </a>
+                                          </td>
+                                          <td valign="top" style="padding: 9px 0 10px 12px; border-bottom: 2px solid #333333; ">
+                                            <a href="<?php echo $json['tech_4_link'] ?><?php echo $link_tracking ?>" style="color:white; text-decoration: none;">
+                                              <h6 style="font-size: 12px; margin: 0 0 3px 0; line-height: 16px;">
+                                                 <?php echo $json['tech_4_headline'] ?>
+                                              </h6>
+                                              <p style="font-size: 12px; margin: 0 0 3px 0; line-height: 16px;">
+                                                  <?php echo $json['tech_4_body'] ?>
+                                              </p>
+                                            </a>
+                                           </td>
+                                          </tr>
+                                        <?php  } ?>
+
                                       </table>
                                     </td>
                                   </tr>
