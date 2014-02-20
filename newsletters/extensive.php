@@ -1637,6 +1637,35 @@
                           <input type="url" id="tech_3_link" name="tech_3_link"placeholder="Tech 3 URL" />
                         </div>
                       </div>
+
+                      <br>
+                      <h5>Tech 4</h5>
+                      <div class="row">
+                        <div class="large-2 columns">
+                          <label class="left inline" for="tech_4_headline">Headline:</label>
+                        </div>
+                        <div class="large-10 columns">
+                          <input type="text" id="tech_4_headline" name="tech_4_headline" placeholder="Tech 4 Headline" />
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="large-2 columns">
+                          <label class="left inline" for="tech_4_body">Body:</label>
+                        </div>
+                        <div class="large-10 columns">
+                          <textarea id="tech_4_body" name="tech_4_body" placeholder="Tech 4 Content"></textarea>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="large-2 columns">
+                          <label class="left inline" for="tech_4_link">Link:</label>
+                        </div>
+                        <div class="large-10 columns">
+                          <input type="url" id="tech_4_link" name="tech_4_link"placeholder="Tech 4 URL" />
+                        </div>
+                      </div>
+
+
                     </div>
                   </div>
               </div>
