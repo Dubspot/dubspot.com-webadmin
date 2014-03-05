@@ -492,7 +492,7 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
         <div class="announcement-videos" style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0 auto; margin-top: 32px;font-size: 15px;text-decoration: none;width: 692px;margin-bottom: 2em;min-height: 202px;">
           <div style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;width: 202px;height: 114px;float: left;">
             <h4 style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 13px;text-decoration: none;color: white;padding-bottom: 4px;font-weight: 400;margin-bottom: 6px;text-align: left;">
-              'Roots and Future': A Day w/ Lee "Scratch" Perry in NYC
+              <?php echo $json['video_1_title'] ?>
             </h4>
             <a href="<?php echo $json['video_1_link'] ?><?php echo $link_tracking ?>">
               <img style="width: 200px; height: 150px; border: 1px solid #777777;" src="<?php echo $json['video_1_img'] ?>" alt="">
@@ -500,7 +500,7 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
           </div>
           <div style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;width: 202px;height: 114px;float: left;margin-left: 42px;">
             <h4 style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 13px;text-decoration: none;color: white;padding-bottom: 4px;font-weight: 400;margin-bottom: 6px;text-align: left;">
-              UnFiltered - Online Student Feedback Video w/ Thavius Beck
+              <?php echo $json['video_2_title'] ?>
             </h4>
             <a href="<?php echo $json['video_2_link']  ?><?php echo $link_tracking ?>">
               <img style="width: 200px; height: 150px; border: 1px solid #777777;" src="<?php echo $json['video_2_img'] ?>" alt="">
@@ -508,7 +508,7 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
           </div>
           <div style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;width: 202px;height: 114px;float: left;margin-left: 42px;">
             <h4 style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 13px;text-decoration: none;color: white;padding-bottom: 4px;font-weight: 400;margin-bottom: 6px;text-align: left;">
-              Sampling the Human Voice - Pt 1 w/ Chris Petti &#64; dbFestival
+              <?php echo $json['video_3_title'] ?>
             </h4>
             <a href="<?php echo $json['video_3_link']  ?><?php echo $link_tracking ?>">
               <img style="width: 200px; height: 150px; border: 1px solid #777777;" src="<?php echo $json['video_3_img'] ?>" alt="">
