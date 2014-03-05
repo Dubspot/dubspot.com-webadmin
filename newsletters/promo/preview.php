@@ -1,4 +1,4 @@
-<?php 
+<?php
 include 'functions.php';
 $json = json_decode(file_get_contents(latestVersion()),true);
 $link_tracking = "?c1=Newsletter&amp;source=" . date('My') . "&amp;kw=" . date('My') . "_" . $json['short_name'];
@@ -16,7 +16,7 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
   <body>
     <div id="announcement-container">
       <div class="announcement" style="background: black;padding-bottom: 4em;width: 760px;margin: 0 auto; border: 1px solid #777777;">
-        
+
 
 
 
@@ -33,7 +33,7 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
         <!--===========================================
         =                   HEADER Row                =
         =============================================-->
-        
+
         <div id="header" style="background-color:#FFFFFF; margin: 0 auto;">
            <table border="0" cellspacing="0" cellpadding="0" width="760">
               <tr>
@@ -96,7 +96,7 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
             </table>
         </div>
 
-        <!--========== End of HEADER Row  ===========--> 
+        <!--========== End of HEADER Row  ===========-->
 
 
 
@@ -114,7 +114,6 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
 
         <a class="announcement-banner" href="http://www.dubspot.com/sale<?php echo $link_tracking ?>" style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;background-image: url(<?php echo $image_folder ?>/header.jpg);display: block;height: 255px;width: 760px;background-size: 760px;background-repeat: no-repeat;"></a><!-- end .announcement-banner -->
 
-        
 
 
 
@@ -125,7 +124,8 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
 
 
 
-        
+
+
 
 
 
@@ -154,15 +154,15 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
 
               <?php echo $json['main_story_body1'] ?>
               <br><br>
-              <?php echo $json['main_story_body2'] ?>              
+              <?php echo $json['main_story_body2'] ?>
               <br><br>
-              <?php echo $json['main_story_body3'] ?>              
-            
+              <?php echo $json['main_story_body3'] ?>
+
               <br>
               <a href="https://www.dubspot.com/sale<?php echo $link_tracking ?>" style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 16px;text-decoration: underline;font-weight: 700;color: white;">
                 <b style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;">Learn more
                 </b>
-              </a>  
+              </a>
             </p>
           </div>
 
@@ -192,7 +192,7 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
 
 
 
-                    
+
           <!--===========================================
           =                  COURSES Row                =
           =============================================-->
@@ -204,9 +204,9 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
           </div>
 
 
-                                                      
+
           <div class="announcement-courses" style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none; height: 316px; padding-top: 18px;">
-            
+
             <div style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0 0 18px 0;font-size: 15px;text-decoration: none;width: 158px;height: 64px;float: left;">
               <a href="<?php echo $json['course_1_link'] ?><?php echo $link_tracking ?>" style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;">
                 <h4 style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;color: <?php echo $json['hex_color'] ?>;padding-bottom: 4px;font-weight: 400;">
@@ -267,7 +267,7 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
                   &gt; See More Dates
                 </h6>
               </a>
-            </div>  
+            </div>
 
 
             <div style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0 0 18px 18px;font-size: 15px;text-decoration: none;width: 158px;height: 64px;float: left;">
@@ -299,7 +299,7 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
                 </h4>
                 <h5 style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 13px;text-decoration: none;color: white;font-weight: 400;">
                   NYC: <?php echo $json['course_5_ny_dates'] ?>
-                  <br style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;">                  
+                  <br style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;">
                   LA: <?php echo $json['course_5_la_dates'] ?>
                   <br style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;">
                   Online: <?php echo $json['course_5_online_dates'] ?>
@@ -320,7 +320,7 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
                 </h4>
                 <h5 style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 13px;text-decoration: none;color: white;font-weight: 400;">
                   NYC: <?php echo $json['course_6_ny_dates'] ?>
-                  <br style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;">                  
+                  <br style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;">
                   LA: <?php echo $json['course_6_la_dates'] ?>
                   <br style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;">
                   Online: <?php echo $json['course_6_online_dates'] ?>
@@ -341,7 +341,7 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
                 </h4>
                 <h5 style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 13px;text-decoration: none;color: white;font-weight: 400;">
                   NYC: <?php echo $json['course_7_ny_dates'] ?>
-                  <br style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;">                  
+                  <br style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;">
                   LA: <?php echo $json['course_7_la_dates'] ?>
                   <br style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;">
                   Online: <?php echo $json['course_7_online_dates'] ?>
@@ -442,7 +442,7 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
             <p style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 1em 0;font-size: 16px;text-decoration: none;color: #777777;font-weight: 400;">
               <a href="http://www.dubspot.com/sale<?php echo $link_tracking ?>" style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 16px;text-decoration: none;color: <?php echo $json['hex_color'] ?>;">
                 <?php echo $json['sale_headline'] ?>
-              </a>  
+              </a>
             </p>
           </div>
 
@@ -453,7 +453,7 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
 
 
 
-          <a id="register-button" href="http://www.dubspot.com/sale<?php echo $link_tracking ?>" style="background: <?php echo $json['hex_color'] ?>; border-radius: 6px; -webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 2em auto;font-size: 15px;text-decoration: none;display: block;font-weight: 700;width: 174px;height: 41px;margin: 2em auto; text-align: center; -webkit-transition: box-shadow 150ms linear;-moz-transition: box-shadow 150ms linear;-ms-transition: box-shadow 150ms linear;-o-transition: box-shadow 150ms linear;transition: box-shadow 150ms linear; color: black !important;line-height: 41px;" name="register-button">
+          <a id="register-button" href="http://www.dubspot.com/sale<?php echo $link_tracking ?>" style="background: <?php echo $json['hex_color'] ?>; border-radius: 6px; -webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 2em auto;font-size: 15px;text-decoration: none;display: block;font-weight: 700;width: 174px;height: 41px;margin: 2em auto; -webkit-transition: box-shadow 150ms linear;-moz-transition: box-shadow 150ms linear;-ms-transition: box-shadow 150ms linear;-o-transition: box-shadow 150ms linear;transition: box-shadow 150ms linear; color: black !important;line-height: 41px;" name="register-button">
             Learn More
           </a>
 
@@ -557,7 +557,7 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
             <img alt="" src="http://www.dubspot.com/email-images/icons/footer.png" style="border: none;margin: 0 auto;padding: 0 0 0 0;display: block;color: #111">
           </a>
           <p style="display: block;margin: 0px auto;padding: 5px 0px 10px 0px;border: none;color: #B9B9B9">
-            &copy; <?php echo date('Y'); ?> DS14, Inc. - Dubspot - 348 West 14th Street, New York, NY 10014 - 212.242.2100 - 1.877.DUBSPOT (1.877.382.7768) - 
+            &copy; <?php echo date('Y'); ?> DS14, Inc. - Dubspot - 348 West 14th Street, New York, NY 10014 - 212.242.2100 - 1.877.DUBSPOT (1.877.382.7768) -
             <a href="http://www.dubspot.com/about/contact/<?php echo $link_tracking ?>" style="color: #B9B9B9;text-decoration: none">
               Contact Us
             </a>
