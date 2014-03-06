@@ -170,7 +170,7 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
 
 
 
-          <img src="http://www.dubspot.com/wp-content/themes/dubspotheme/images/dsla_map.jpeg" alt="" style="width: 100%;">
+          <img src="http://www.dubspot.com/wp-content/themes/dubspotheme/images/dsla_map.jpeg" alt="" style="width: 100%; margin-bottom: 6px;">
 
 
 
@@ -454,7 +454,7 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
 
 
 
-          <a id="register-button" href="http://www.dubspot.com/sale<?php echo $link_tracking ?>" style="background: <?php echo $json['hex_color'] ?>; border-radius: 6px; -webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;font-size: 15px;text-decoration: none;display: block;font-weight: 700;width: 174px;height: 41px;margin: 2em 0; text-align: center; -webkit-transition: box-shadow 150ms linear;-moz-transition: box-shadow 150ms linear;-ms-transition: box-shadow 150ms linear;-o-transition: box-shadow 150ms linear;transition: box-shadow 150ms linear; color: black !important;line-height: 41px;" name="register-button">
+          <a id="register-button" href="http://www.dubspot.com/sale<?php echo $link_tracking ?>" style="background: <?php echo $json['hex_color'] ?>;  -webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;font-size: 15px;text-decoration: none;display: block;font-weight: 700;width: 174px;height: 41px;margin: 2em 0; text-align: center; -webkit-transition: box-shadow 150ms linear;-moz-transition: box-shadow 150ms linear;-ms-transition: box-shadow 150ms linear;-o-transition: box-shadow 150ms linear;transition: box-shadow 150ms linear; color: black !important;line-height: 41px;" name="register-button">
             Learn More
           </a>
 
