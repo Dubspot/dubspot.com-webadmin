@@ -112,7 +112,7 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
 
 
 
-        <a class="announcement-banner" href="http://www.dubspot.com/sale<?php echo $link_tracking ?>" style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;background-image: url(<?php echo $image_folder ?>/header.jpg);display: block;height: 255px;width: 760px;background-size: 760px;background-repeat: no-repeat;"></a><!-- end .announcement-banner -->
+        <a class="announcement-banner" href="<?php echo $json['main_story_link'] ?>" style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;background-image: url(<?php echo $image_folder ?>/header.jpg);display: block;height: 255px;width: 760px;background-size: 760px;background-repeat: no-repeat;"></a><!-- end .announcement-banner -->
 
 
 
@@ -159,7 +159,7 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
               <?php echo $json['main_story_body3'] ?>
 
               <br>
-              <a href="<?php echo $json['main_story_link'] ?><?php echo $link_tracking ?>" style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 16px;text-decoration: underline;font-weight: 700;color: white;">
+              <a href="<?php echo $json['main_story_link'] ?>" style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 16px;text-decoration: underline;font-weight: 700;color: white;">
                 <b style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;">Learn more
                 </b>
               </a>
