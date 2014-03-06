@@ -379,7 +379,7 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
            <!-- <div style="width: 800px; height: 0; float: left; "></div> -->
 
 
-            <div style="font-family: Helvetica, Arial, sans-serif;margin: 0 0 0 0px;font-size: 15px;text-decoration: none;width: 158px;float: left; ">
+            <div style="font-family: Helvetica, Arial, sans-serif;margin: 0 0 18px 0px;font-size: 15px;text-decoration: none;width: 158px;float: left; ">
               <a href="<?php echo $json['course_9_link'] ?>" style="font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;">
                 <h4 style="font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;color: <?php echo $json['hex_color'] ?>;padding-bottom: 4px;font-weight: 400;">
                 <?php echo $json['course_9_name'] ?>
@@ -400,7 +400,7 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
             </div>
 
 
-            <div style="font-family: Helvetica, Arial, sans-serif;margin: 0 0 0 18px;font-size: 15px;text-decoration: none;width: 158px;float: left; ">
+            <div style="font-family: Helvetica, Arial, sans-serif;margin: 0 0 18px 18px;font-size: 15px;text-decoration: none;width: 158px;float: left; ">
               <a href="<?php echo $json['course_10_link'] ?>" style="font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;">
                 <h4 style="font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;color: <?php echo $json['hex_color'] ?>;padding-bottom: 4px;font-weight: 400;">
                 <?php echo $json['course_10_name'] ?>
@@ -440,7 +440,7 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
 
 
           <div class="announcement-courses-footer" style="clear: both; ;font-family: Helvetica, Arial, sans-serif;margin: 0 0 18px 0;font-size: 14px;text-decoration: none;color: white;">
-            <p style="font-family: Helvetica, Arial, sans-serif;margin: 1em 0;font-size: 16px;text-decoration: none;color: #777777;font-weight: 400;">
+            <p style="font-family: Helvetica, Arial, sans-serif;font-size: 16px;text-decoration: none;color: #777777;font-weight: 400;">
               <a href="http://www.dubspot.com/sale<?php echo $link_tracking ?>" style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 16px;text-decoration: none;color: <?php echo $json['hex_color'] ?>;">
                 <?php echo $json['sale_headline'] ?>
               </a>
