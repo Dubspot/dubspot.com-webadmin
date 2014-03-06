@@ -439,7 +439,7 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
 
 
 
-          <div class="announcement-courses-footer" style="clear: both; ;font-family: Helvetica, Arial, sans-serif;margin: 36px 0 18px 0;font-size: 14px;text-decoration: none;color: white;">
+          <div class="announcement-courses-footer" style="clear: both; ;font-family: Helvetica, Arial, sans-serif;margin: 0 0 18px 0;font-size: 14px;text-decoration: none;color: white;">
             <p style="font-family: Helvetica, Arial, sans-serif;margin: 1em 0;font-size: 16px;text-decoration: none;color: #777777;font-weight: 400;">
               <a href="http://www.dubspot.com/sale<?php echo $link_tracking ?>" style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 16px;text-decoration: none;color: <?php echo $json['hex_color'] ?>;">
                 <?php echo $json['sale_headline'] ?>
