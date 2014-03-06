@@ -86,7 +86,7 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
                     .
                   </div>
                   <div style="color:#000000;background-color:#FFFFFF;line-height:12px;font-size:12px; font-family: Helvetica, Arial, sans-serif; padding-left:14px;">
-                    Dubspot Open House - Sundays 11am + 12pm
+                    Dubspot NY Open House - Sundays 11am + 12pm
                   </div>
                   <div style="color:#FFFFFF;background-color:#FFFFFF;line-height:35px;font-size:1px;">
                     .
