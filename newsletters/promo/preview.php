@@ -206,86 +206,86 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
 
 
 
-          <div class="announcement-courses" style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none; height: 316px; padding-top: 18px;">
+          <div class="announcement-courses" style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none; height: 300px; padding-top: 18px;">
 
-            <div style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0 0 18px 0;font-size: 15px;text-decoration: none;width: 158px;height: 64px;float: left;">
-              <a href="<?php echo $json['course_1_link'] ?>" style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;">
-                <h4 style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;color: <?php echo $json['hex_color'] ?>;padding-bottom: 4px;font-weight: 400;">
+            <div style="font-family: Helvetica, Arial, sans-serif;margin: 0 0 18px 0;font-size: 15px;text-decoration: none;width: 158px;float: left;">
+              <a href="<?php echo $json['course_1_link'] ?>" style="font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;">
+                <h4 style="font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;color: <?php echo $json['hex_color'] ?>;padding-bottom: 4px;font-weight: 400;">
                 <?php echo $json['course_1_name'] ?>
                 </h4>
-                <h5 style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 13px;text-decoration: none;color: white;font-weight: 400;">
+                <h5 style="font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 13px;text-decoration: none;color: white;font-weight: 400;">
                   NYC: <?php echo $json['course_1_ny_dates'] ?>
-                  <br style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;">
+                  <br style="font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;">
                   LA: <?php echo $json['course_1_la_dates'] ?>
-                  <br style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;">
+                  <br style="font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;">
                   Online: <?php echo $json['course_1_online_dates'] ?>
                 </h5>
               </a>
-              <a href="<?php echo $json['course_1_link'] ?>" style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;">
-                <h6 style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 11px;text-decoration: none;color: <?php echo $json['hex_color'] ?>;">
+              <a href="<?php echo $json['course_1_link'] ?>" style="font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;">
+                <h6 style="font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 11px;text-decoration: none;color: <?php echo $json['hex_color'] ?>;">
                   &gt; See More Dates
                 </h6>
               </a>
             </div>
 
 
-            <div style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0 0 18px 18px;font-size: 15px;text-decoration: none;width: 158px;height: 64px;float: left;">
-              <a href="<?php echo $json['course_2_link'] ?>" style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;">
-                <h4 style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;color: <?php echo $json['hex_color'] ?>;padding-bottom: 4px;font-weight: 400;">
+            <div style="font-family: Helvetica, Arial, sans-serif;margin: 0 0 18px 18px;font-size: 15px;text-decoration: none;width: 158px;float: left;">
+              <a href="<?php echo $json['course_2_link'] ?>" style="font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;">
+                <h4 style="font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;color: <?php echo $json['hex_color'] ?>;padding-bottom: 4px;font-weight: 400;">
                 <?php echo $json['course_2_name'] ?>
                 </h4>
-                <h5 style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 13px;text-decoration: none;color: white;font-weight: 400;">
+                <h5 style="font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 13px;text-decoration: none;color: white;font-weight: 400;">
                   NYC: <?php echo $json['course_2_ny_dates'] ?>
-                  <br style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;">
+                  <br style="font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;">
                   LA: <?php echo $json['course_2_la_dates'] ?>
-                  <br style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;">
+                  <br style="font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;">
                   Online: <?php echo $json['course_2_online_dates'] ?>
                 </h5>
               </a>
-              <a href="<?php echo $json['course_2_link'] ?>" style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;">
-                <h6 style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 11px;text-decoration: none;color: <?php echo $json['hex_color'] ?>;">
+              <a href="<?php echo $json['course_2_link'] ?>" style="font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;">
+                <h6 style="font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 11px;text-decoration: none;color: <?php echo $json['hex_color'] ?>;">
                   &gt; See More Dates
                 </h6>
               </a>
             </div>
 
 
-            <div style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0 0 18px 18px;font-size: 15px;text-decoration: none;width: 158px;height: 64px;float: left;">
-              <a href="<?php echo $json['course_3_link'] ?>" style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;">
-                <h4 style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;color: <?php echo $json['hex_color'] ?>;padding-bottom: 4px;font-weight: 400;">
+            <div style="font-family: Helvetica, Arial, sans-serif;margin: 0 0 18px 18px;font-size: 15px;text-decoration: none;width: 158px;float: left;">
+              <a href="<?php echo $json['course_3_link'] ?>" style="font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;">
+                <h4 style="font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;color: <?php echo $json['hex_color'] ?>;padding-bottom: 4px;font-weight: 400;">
                 <?php echo $json['course_3_name'] ?>
                 </h4>
-                <h5 style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 13px;text-decoration: none;color: white;font-weight: 400;">
+                <h5 style="font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 13px;text-decoration: none;color: white;font-weight: 400;">
                   NYC: <?php echo $json['course_3_ny_dates'] ?>
-                  <br style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;">
+                  <br style="font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;">
                   LA: <?php echo $json['course_3_la_dates'] ?>
-                  <br style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;">
+                  <br style="font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;">
                   Online: <?php echo $json['course_3_online_dates'] ?>
                 </h5>
               </a>
-              <a href="<?php echo $json['course_3_link'] ?>" style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;">
-                <h6 style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 11px;text-decoration: none;color: <?php echo $json['hex_color'] ?>;">
+              <a href="<?php echo $json['course_3_link'] ?>" style="font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;">
+                <h6 style="font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 11px;text-decoration: none;color: <?php echo $json['hex_color'] ?>;">
                   &gt; See More Dates
                 </h6>
               </a>
             </div>
 
 
-            <div style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0 0 18px 18px;font-size: 15px;text-decoration: none;width: 158px;height: 64px;float: left;">
-              <a href="<?php echo $json['course_4_link'] ?>" style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;">
-                <h4 style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;color: <?php echo $json['hex_color'] ?>;padding-bottom: 4px;font-weight: 400;">
+            <div style="font-family: Helvetica, Arial, sans-serif;margin: 0 0 18px 18px;font-size: 15px;text-decoration: none;width: 158px;float: left;">
+              <a href="<?php echo $json['course_4_link'] ?>" style="font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;">
+                <h4 style="font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;color: <?php echo $json['hex_color'] ?>;padding-bottom: 4px;font-weight: 400;">
                 <?php echo $json['course_4_name'] ?>
                 </h4>
-                <h5 style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 13px;text-decoration: none;color: white;font-weight: 400;">
+                <h5 style="font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 13px;text-decoration: none;color: white;font-weight: 400;">
                   NYC: <?php echo $json['course_4_ny_dates'] ?>
-                  <br style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;">
+                  <br style="font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;">
                   LA: <?php echo $json['course_4_la_dates'] ?>
-                  <br style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;">
+                  <br style="font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;">
                   Online: <?php echo $json['course_4_online_dates'] ?>
                 </h5>
               </a>
-              <a href="<?php echo $json['course_4_link'] ?>"  style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;">
-                <h6 style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 11px;text-decoration: none;color: <?php echo $json['hex_color'] ?>;">
+              <a href="<?php echo $json['course_4_link'] ?>"  style="font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;">
+                <h6 style="font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 11px;text-decoration: none;color: <?php echo $json['hex_color'] ?>;">
                   &gt; See More Dates
                 </h6>
               </a>
@@ -293,128 +293,128 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
 
             <!-- <div style="width: 200px; height: 36px; float: left;"></div> -->
 
-            <div style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 36px 0 0 0;font-size: 15px;text-decoration: none;width: 158px;height: 64px;float: left;  clear: both;">
-              <a href="<?php echo $json['course_5_link'] ?>" style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;">
-                <h4 style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;color: <?php echo $json['hex_color'] ?>;padding-bottom: 4px;font-weight: 400;">
+            <div style="font-family: Helvetica, Arial, sans-serif;margin: 0 0 0 0;font-size: 15px;text-decoration: none;width: 158px;float: left;  clear: both;">
+              <a href="<?php echo $json['course_5_link'] ?>" style="font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;">
+                <h4 style="font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;color: <?php echo $json['hex_color'] ?>;padding-bottom: 4px;font-weight: 400;">
                 <?php echo $json['course_5_name'] ?>
                 </h4>
-                <h5 style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 13px;text-decoration: none;color: white;font-weight: 400;">
+                <h5 style="font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 13px;text-decoration: none;color: white;font-weight: 400;">
                   NYC: <?php echo $json['course_5_ny_dates'] ?>
-                  <br style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;">
+                  <br style="font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;">
                   LA: <?php echo $json['course_5_la_dates'] ?>
-                  <br style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;">
+                  <br style="font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;">
                   Online: <?php echo $json['course_5_online_dates'] ?>
                 </h5>
               </a>
-              <a href="<?php echo $json['course_5_link'] ?>"  style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;">
-                <h6 style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 11px;text-decoration: none;color: <?php echo $json['hex_color'] ?>;">
+              <a href="<?php echo $json['course_5_link'] ?>"  style="font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;">
+                <h6 style="font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 11px;text-decoration: none;color: <?php echo $json['hex_color'] ?>;">
                   &gt; See More Dates
                 </h6>
               </a>
             </div>
 
 
-            <div style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 36px 0 0 18px;font-size: 15px;text-decoration: none;width: 158px;height: 64px;float: left; ">
-              <a href="<?php echo $json['course_6_link'] ?>" style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;">
-                <h4 style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;color: <?php echo $json['hex_color'] ?>;padding-bottom: 4px;font-weight: 400;">
+            <div style="font-family: Helvetica, Arial, sans-serif;margin: 0 0 0 18px;font-size: 15px;text-decoration: none;width: 158px;float: left; ">
+              <a href="<?php echo $json['course_6_link'] ?>" style="font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;">
+                <h4 style="font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;color: <?php echo $json['hex_color'] ?>;padding-bottom: 4px;font-weight: 400;">
                 <?php echo $json['course_6_name'] ?>
                 </h4>
-                <h5 style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 13px;text-decoration: none;color: white;font-weight: 400;">
+                <h5 style="font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 13px;text-decoration: none;color: white;font-weight: 400;">
                   NYC: <?php echo $json['course_6_ny_dates'] ?>
-                  <br style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;">
+                  <br style="font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;">
                   LA: <?php echo $json['course_6_la_dates'] ?>
-                  <br style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;">
+                  <br style="font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;">
                   Online: <?php echo $json['course_6_online_dates'] ?>
                 </h5>
               </a>
-              <a href="<?php echo $json['course_6_link'] ?>" style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;">
-                <h6 style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 11px;text-decoration: none;color: <?php echo $json['hex_color'] ?>;">
+              <a href="<?php echo $json['course_6_link'] ?>" style="font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;">
+                <h6 style="font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 11px;text-decoration: none;color: <?php echo $json['hex_color'] ?>;">
                   &gt; See More Dates
                 </h6>
               </a>
             </div>
 
 
-            <div style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 36px 0 0 18px;font-size: 15px;text-decoration: none;width: 158px;height: 64px;float: left; ">
-              <a href="<?php echo $json['course_7_link'] ?>" style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;">
-                <h4 style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;color: <?php echo $json['hex_color'] ?>;padding-bottom: 4px;font-weight: 400;">
+            <div style="font-family: Helvetica, Arial, sans-serif;margin: 0 0 0 18px;font-size: 15px;text-decoration: none;width: 158px;float: left; ">
+              <a href="<?php echo $json['course_7_link'] ?>" style="font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;">
+                <h4 style="font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;color: <?php echo $json['hex_color'] ?>;padding-bottom: 4px;font-weight: 400;">
                 <?php echo $json['course_7_name'] ?>
                 </h4>
-                <h5 style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 13px;text-decoration: none;color: white;font-weight: 400;">
+                <h5 style="font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 13px;text-decoration: none;color: white;font-weight: 400;">
                   NYC: <?php echo $json['course_7_ny_dates'] ?>
-                  <br style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;">
+                  <br style="font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;">
                   LA: <?php echo $json['course_7_la_dates'] ?>
-                  <br style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;">
+                  <br style="font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;">
                   Online: <?php echo $json['course_7_online_dates'] ?>
                 </h5>
               </a>
-              <a href="<?php echo $json['course_7_link'] ?>" style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;">
-                <h6 style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 11px;text-decoration: none;color: <?php echo $json['hex_color'] ?>;">
+              <a href="<?php echo $json['course_7_link'] ?>" style="font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;">
+                <h6 style="font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 11px;text-decoration: none;color: <?php echo $json['hex_color'] ?>;">
                   &gt; See More Dates
                 </h6>
               </a>
             </div>
 
 
-            <div style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 36px 0 0 18px;font-size: 15px;text-decoration: none;width: 158px;height: 64px;float: left; ">
-              <a href="<?php echo $json['course_8_link'] ?>" style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;">
-                <h4 style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;color: <?php echo $json['hex_color'] ?>;padding-bottom: 4px;font-weight: 400;">
+            <div style="font-family: Helvetica, Arial, sans-serif;margin: 0 0 0 18px;font-size: 15px;text-decoration: none;width: 158px;float: left; ">
+              <a href="<?php echo $json['course_8_link'] ?>" style="font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;">
+                <h4 style="font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;color: <?php echo $json['hex_color'] ?>;padding-bottom: 4px;font-weight: 400;">
                 <?php echo $json['course_8_name'] ?>
                 </h4>
-                <h5 style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 13px;text-decoration: none;color: white;font-weight: 400;">
+                <h5 style="font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 13px;text-decoration: none;color: white;font-weight: 400;">
                   NYC: <?php echo $json['course_8_ny_dates'] ?>
-                  <br style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;">
+                  <br style="font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;">
                   LA: <?php echo $json['course_8_la_dates'] ?>
-                  <br style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;">
+                  <br style="font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;">
                   Online: <?php echo $json['course_8_online_dates'] ?>
                 </h5>
               </a>
-              <a href="<?php echo $json['course_8_link'] ?>" style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;">
-                <h6 style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 11px;text-decoration: none;color: <?php echo $json['hex_color'] ?>;">
+              <a href="<?php echo $json['course_8_link'] ?>" style="font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;">
+                <h6 style="font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 11px;text-decoration: none;color: <?php echo $json['hex_color'] ?>;">
                   &gt; See More Dates
                 </h6>
               </a>
             </div>
 
-           <!-- <div style="width: 800px; height: 36px; float: left; "></div> -->
+           <!-- <div style="width: 800px; height: 0; float: left; "></div> -->
 
 
-            <div style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 36px 0 0 0px;font-size: 15px;text-decoration: none;width: 158px;height: 64px;float: left; ">
-              <a href="<?php echo $json['course_9_link'] ?>" style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;">
-                <h4 style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;color: <?php echo $json['hex_color'] ?>;padding-bottom: 4px;font-weight: 400;">
+            <div style="font-family: Helvetica, Arial, sans-serif;margin: 0 0 0 0px;font-size: 15px;text-decoration: none;width: 158px;float: left; ">
+              <a href="<?php echo $json['course_9_link'] ?>" style="font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;">
+                <h4 style="font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;color: <?php echo $json['hex_color'] ?>;padding-bottom: 4px;font-weight: 400;">
                 <?php echo $json['course_9_name'] ?>
                 </h4>
-                <h5 style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 13px;text-decoration: none;color: white;font-weight: 400;">
+                <h5 style="font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 13px;text-decoration: none;color: white;font-weight: 400;">
                   NYC: <?php echo $json['course_9_ny_dates'] ?>
-                  <br style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;">
+                  <br style="font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;">
                   LA: <?php echo $json['course_9_la_dates'] ?>
-                  <br style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;">
+                  <br style="font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;">
                   Online: <?php echo $json['course_9_online_dates'] ?>
                 </h5>
               </a>
-              <a href="<?php echo $json['course_9_link'] ?>" style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;">
-                <h6 style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 11px;text-decoration: none;color: <?php echo $json['hex_color'] ?>;">
+              <a href="<?php echo $json['course_9_link'] ?>" style="font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;">
+                <h6 style="font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 11px;text-decoration: none;color: <?php echo $json['hex_color'] ?>;">
                   &gt; See More Dates
                 </h6>
               </a>
             </div>
 
 
-            <div style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 36px 0 0 18px;font-size: 15px;text-decoration: none;width: 158px;height: 64px;float: left; ">
-              <a href="<?php echo $json['course_10_link'] ?>" style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;">
-                <h4 style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;color: <?php echo $json['hex_color'] ?>;padding-bottom: 4px;font-weight: 400;">
+            <div style="font-family: Helvetica, Arial, sans-serif;margin: 0 0 0 18px;font-size: 15px;text-decoration: none;width: 158px;float: left; ">
+              <a href="<?php echo $json['course_10_link'] ?>" style="font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;">
+                <h4 style="font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;color: <?php echo $json['hex_color'] ?>;padding-bottom: 4px;font-weight: 400;">
                 <?php echo $json['course_10_name'] ?>
                 </h4>
-                <h5 style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 13px;text-decoration: none;color: white;font-weight: 400;">
+                <h5 style="font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 13px;text-decoration: none;color: white;font-weight: 400;">
                   NYC: <?php echo $json['course_10_ny_dates'] ?>
-                  <br style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;">
+                  <br style="font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;">
                   LA: <?php echo $json['course_10_la_dates'] ?>
-                  <br style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;">
+                  <br style="font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;">
                   Online: <?php echo $json['course_10_online_dates'] ?>
                 </h5>
               </a>
-              <a href="<?php echo $json['course_10_link'] ?>" style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;">
-                <h6 style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 11px;text-decoration: none;color: <?php echo $json['hex_color'] ?>;">
+              <a href="<?php echo $json['course_10_link'] ?>" style="font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;">
+                <h6 style="font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 11px;text-decoration: none;color: <?php echo $json['hex_color'] ?>;">
                   &gt; See More Dates
                 </h6>
               </a>
@@ -439,8 +439,8 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
 
 
 
-          <div class="announcement-courses-footer" style="clear: both; -webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 36px 0 18px 0;font-size: 14px;text-decoration: none;color: white;">
-            <p style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 1em 0;font-size: 16px;text-decoration: none;color: #777777;font-weight: 400;">
+          <div class="announcement-courses-footer" style="clear: both; ;font-family: Helvetica, Arial, sans-serif;margin: 36px 0 18px 0;font-size: 14px;text-decoration: none;color: white;">
+            <p style="font-family: Helvetica, Arial, sans-serif;margin: 1em 0;font-size: 16px;text-decoration: none;color: #777777;font-weight: 400;">
               <a href="http://www.dubspot.com/sale<?php echo $link_tracking ?>" style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 16px;text-decoration: none;color: <?php echo $json['hex_color'] ?>;">
                 <?php echo $json['sale_headline'] ?>
               </a>
