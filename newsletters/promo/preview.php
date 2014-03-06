@@ -207,7 +207,7 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
 
           <div class="announcement-courses" style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none; height: 316px; padding-top: 18px;">
 
-            <div style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0 0 18px 0;font-size: 15px;text-decoration: none;width: 158px;height: 64px;float: left;">
+            <div style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 36px 0 18px 0;font-size: 15px;text-decoration: none;width: 158px;height: 64px;float: left;">
               <a href="<?php echo $json['course_1_link'] ?><?php echo $link_tracking ?>" style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;">
                 <h4 style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;color: <?php echo $json['hex_color'] ?>;padding-bottom: 4px;font-weight: 400;">
                 <?php echo $json['course_1_name'] ?>
@@ -290,9 +290,9 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
               </a>
              </div>
 
-            <div style="width: 200px; height: 36px; float: left;"></div>
+            <!-- <div style="width: 200px; height: 36px; float: left;"></div> -->
 
-            <div style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0 0 0 0;font-size: 15px;text-decoration: none;width: 158px;height: 64px;float: left;  clear: both;">
+            <div style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 36px 0 0 0;font-size: 15px;text-decoration: none;width: 158px;height: 64px;float: left;  clear: both;">
               <a href="<?php echo $json['course_5_link'] ?><?php echo $link_tracking ?>" style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;">
                 <h4 style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;color: <?php echo $json['hex_color'] ?>;padding-bottom: 4px;font-weight: 400;">
                 <?php echo $json['course_5_name'] ?>
@@ -313,7 +313,7 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
             </div>
 
 
-            <div style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0 0 0 18px;font-size: 15px;text-decoration: none;width: 158px;height: 64px;float: left; ">
+            <div style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 36px 0 0 18px;font-size: 15px;text-decoration: none;width: 158px;height: 64px;float: left; ">
               <a href="<?php echo $json['course_6_link'] ?><?php echo $link_tracking ?>" style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;">
                 <h4 style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;color: <?php echo $json['hex_color'] ?>;padding-bottom: 4px;font-weight: 400;">
                 <?php echo $json['course_6_name'] ?>
@@ -334,7 +334,7 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
             </div>
 
 
-            <div style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0 0 0 18px;font-size: 15px;text-decoration: none;width: 158px;height: 64px;float: left; ">
+            <div style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 36px 0 0 18px;font-size: 15px;text-decoration: none;width: 158px;height: 64px;float: left; ">
               <a href="<?php echo $json['course_7_link'] ?><?php echo $link_tracking ?>" style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;">
                 <h4 style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;color: <?php echo $json['hex_color'] ?>;padding-bottom: 4px;font-weight: 400;">
                 <?php echo $json['course_7_name'] ?>
@@ -355,7 +355,7 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
             </div>
 
 
-            <div style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0 0 0 18px;font-size: 15px;text-decoration: none;width: 158px;height: 64px;float: left; ">
+            <div style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 36px 0 0 18px;font-size: 15px;text-decoration: none;width: 158px;height: 64px;float: left; ">
               <a href="<?php echo $json['course_8_link'] ?><?php echo $link_tracking ?>" style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;">
                 <h4 style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;color: <?php echo $json['hex_color'] ?>;padding-bottom: 4px;font-weight: 400;">
                 <?php echo $json['course_8_name'] ?>
@@ -375,10 +375,10 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
               </a>
             </div>
 
-           <div style="width: 800px; height: 36px; float: left; "></div>
+           <!-- <div style="width: 800px; height: 36px; float: left; "></div> -->
 
 
-            <div style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0 0 0 0px;font-size: 15px;text-decoration: none;width: 158px;height: 64px;float: left; ">
+            <div style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 36px 0 0 0px;font-size: 15px;text-decoration: none;width: 158px;height: 64px;float: left; ">
               <a href="<?php echo $json['course_9_link'] ?><?php echo $link_tracking ?>" style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;">
                 <h4 style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;color: <?php echo $json['hex_color'] ?>;padding-bottom: 4px;font-weight: 400;">
                 <?php echo $json['course_9_name'] ?>
@@ -399,7 +399,7 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
             </div>
 
 
-            <div style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0 0 0 18px;font-size: 15px;text-decoration: none;width: 158px;height: 64px;float: left; ">
+            <div style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 36px 0 0 18px;font-size: 15px;text-decoration: none;width: 158px;height: 64px;float: left; ">
               <a href="<?php echo $json['course_10_link'] ?><?php echo $link_tracking ?>" style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;">
                 <h4 style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;color: <?php echo $json['hex_color'] ?>;padding-bottom: 4px;font-weight: 400;">
                 <?php echo $json['course_10_name'] ?>
