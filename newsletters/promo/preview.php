@@ -170,7 +170,7 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
 
 
 
-          <img src="http://www.dubspot.com/wp-content/themes/dubspotheme/images/dsla_map.jpeg" alt="">
+          <img src="http://www.dubspot.com/wp-content/themes/dubspotheme/images/dsla_map.jpeg" alt="" style="width: 100%;">
 
 
 
