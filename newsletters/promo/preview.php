@@ -293,7 +293,7 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
 
             <!-- <div style="width: 200px; height: 36px; float: left;"></div> -->
 
-            <div style="font-family: Helvetica, Arial, sans-serif;margin: 0 0 0 0;font-size: 15px;text-decoration: none;width: 158px;float: left;  clear: both;">
+            <div style="font-family: Helvetica, Arial, sans-serif;margin: 0 0 18px 0;font-size: 15px;text-decoration: none;width: 158px;float: left;  clear: both;">
               <a href="<?php echo $json['course_5_link'] ?>" style="font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;">
                 <h4 style="font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;color: <?php echo $json['hex_color'] ?>;padding-bottom: 4px;font-weight: 400;">
                 <?php echo $json['course_5_name'] ?>
@@ -314,7 +314,7 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
             </div>
 
 
-            <div style="font-family: Helvetica, Arial, sans-serif;margin: 0 0 0 18px;font-size: 15px;text-decoration: none;width: 158px;float: left; ">
+            <div style="font-family: Helvetica, Arial, sans-serif;margin: 0 0 18px 18px;font-size: 15px;text-decoration: none;width: 158px;float: left; ">
               <a href="<?php echo $json['course_6_link'] ?>" style="font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;">
                 <h4 style="font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;color: <?php echo $json['hex_color'] ?>;padding-bottom: 4px;font-weight: 400;">
                 <?php echo $json['course_6_name'] ?>
@@ -335,7 +335,7 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
             </div>
 
 
-            <div style="font-family: Helvetica, Arial, sans-serif;margin: 0 0 0 18px;font-size: 15px;text-decoration: none;width: 158px;float: left; ">
+            <div style="font-family: Helvetica, Arial, sans-serif;margin: 0 0 18px 18px;font-size: 15px;text-decoration: none;width: 158px;float: left; ">
               <a href="<?php echo $json['course_7_link'] ?>" style="font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;">
                 <h4 style="font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;color: <?php echo $json['hex_color'] ?>;padding-bottom: 4px;font-weight: 400;">
                 <?php echo $json['course_7_name'] ?>
@@ -356,7 +356,7 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
             </div>
 
 
-            <div style="font-family: Helvetica, Arial, sans-serif;margin: 0 0 0 18px;font-size: 15px;text-decoration: none;width: 158px;float: left; ">
+            <div style="font-family: Helvetica, Arial, sans-serif;margin: 0 0 18px 18px;font-size: 15px;text-decoration: none;width: 158px;float: left; ">
               <a href="<?php echo $json['course_8_link'] ?>" style="font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;">
                 <h4 style="font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;color: <?php echo $json['hex_color'] ?>;padding-bottom: 4px;font-weight: 400;">
                 <?php echo $json['course_8_name'] ?>
