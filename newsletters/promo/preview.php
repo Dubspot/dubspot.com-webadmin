@@ -158,7 +158,7 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
               <br><br>
               <?php echo $json['main_story_body3'] ?>
 
-              <br>
+              <!-- <br> -->
               <a href="<?php echo $json['main_story_link'] ?>" style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 16px;text-decoration: none;font-weight: 700;color: <?php echo $json['hex_color'] ?>;">
                 <b style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;margin: 0;font-size: 15px;text-decoration: none;">Learn more
                 </b>
