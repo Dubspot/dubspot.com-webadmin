@@ -48,7 +48,7 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
                   <div style="color:#FFFFFF;background-color:#FFFFFF;line-height:45px;font-size:1px;">
                     .
                   </div>
-                  <table border="0" cellspacing="0" cellpadding="0" width="285" style="padding-left: 15px;">
+                  <table border="0" cellspacing="0" cellpadding="0" width="285" >
                     <tr>
                       <td width="19">
                         <a href="http://www.facebook.com/DubSpot" style="text-decoration:none;">
@@ -85,7 +85,7 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
                   <div style="color:#FFFFFF;background-color:#FFFFFF;line-height:5px;font-size:1px;">
                     .
                   </div>
-                  <div style="color:#000000;background-color:#FFFFFF;line-height:12px;font-size:12px; font-family: Helvetica, Arial, sans-serif; padding-left:14px;">
+                  <div style="color:#000000;background-color:#FFFFFF;line-height:12px;font-size:12px; font-family: Helvetica, Arial, sans-serif;">
                     Dubspot NY Open House - Sundays 11am + 12pm
                   </div>
                   <div style="color:#FFFFFF;background-color:#FFFFFF;line-height:35px;font-size:1px;">
