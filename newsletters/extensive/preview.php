@@ -1120,7 +1120,7 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
                               <table border="0" cellspacing="0" cellpadding="0" width="250">
                                 <tbody>
                                   <tr>
-                                    <td class="bottom-sidebar-1" valign="top" bgcolor="#000000" height="400">
+                                    <td class="bottom-sidebar-1" valign="top" bgcolor="#000000">
                                       <div class="ribbon" style="background: <?php echo $json['hex_color'] ?>; height: 30px; text-align: left; padding-left: 24px;">
                                         <h2 style="font-size: 16px; padding-top: 7px; margin-top: 0;">FRESH TUTORIALS</h2>
                                       </div>
@@ -1510,7 +1510,7 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
                                                  <?php echo $json['tech_5_headline'] ?>
                                               </h6>
                                               <p style="font-size: 12px; margin: 0 0 3px 0; line-height: 16px;">
-                                                  <?php echo $json['tech_4_body'] ?>
+                                                  <?php echo $json['tech_5_body'] ?>
                                               </p>
                                             </a>
                                            </td>
