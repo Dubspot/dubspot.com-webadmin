@@ -1534,6 +1534,34 @@
                           <input type="url" id="artist_5_link" name="artist_5_link"placeholder="Artist 5 URL" />
                         </div>
                       </div>
+
+                      <br>
+                      <h5>Artist 6</h5>
+                      <div class="row">
+                        <div class="large-2 columns">
+                          <label class="left inline" for="artist_6_headline">Headline:</label>
+                        </div>
+                        <div class="large-10 columns">
+                          <input type="text" id="artist_6_headline" name="artist_6_headline" placeholder="Artist 6 Headline" />
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="large-2 columns">
+                          <label class="left inline" for="artist_6_body">Body:</label>
+                        </div>
+                        <div class="large-10 columns">
+                          <textarea id="artist_6_body" name="artist_6_body" placeholder="Artist 6 Content"></textarea>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="large-2 columns">
+                          <label class="left inline" for="artist_6_link">Link:</label>
+                        </div>
+                        <div class="large-10 columns">
+                          <input type="url" id="artist_6_link" name="artist_6_link"placeholder="Artist 6 URL" />
+                        </div>
+                      </div>
+
                     </div>
                   </div>
               </div>
@@ -1665,6 +1693,32 @@
                         </div>
                       </div>
 
+                      <br>
+                      <h5>Tech 5</h5>
+                      <div class="row">
+                        <div class="large-2 columns">
+                          <label class="left inline" for="tech_5_headline">Headline:</label>
+                        </div>
+                        <div class="large-10 columns">
+                          <input type="text" id="tech_5_headline" name="tech_5_headline" placeholder="Tech 5 Headline" />
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="large-2 columns">
+                          <label class="left inline" for="tech_5_body">Body:</label>
+                        </div>
+                        <div class="large-10 columns">
+                          <textarea id="tech_5_body" name="tech_5_body" placeholder="Tech 5 Content"></textarea>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="large-2 columns">
+                          <label class="left inline" for="tech_5_link">Link:</label>
+                        </div>
+                        <div class="large-10 columns">
+                          <input type="url" id="tech_5_link" name="tech_5_link"placeholder="Tech 5 URL" />
+                        </div>
+                      </div>
 
                     </div>
                   </div>
