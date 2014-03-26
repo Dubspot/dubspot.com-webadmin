@@ -1501,7 +1501,7 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
                                         <tr>
                                           <td style="margin-right: 12px; padding: 9px 0 8px 2px; border-bottom: 2px solid #333333;">
                                             <a href="<?php echo $json['tech_5_link'] ?><?php echo $link_tracking ?>">
-                                              <img src="<?php echo $image_folder ?>/sidebar_tech_04.jpg" width="75" height="75" alt="">
+                                              <img src="<?php echo $image_folder ?>/sidebar_tech_05.jpg" width="75" height="75" alt="">
                                             </a>
                                           </td>
                                           <td valign="top" style="padding: 9px 0 10px 12px; border-bottom: 2px solid #333333; ">
