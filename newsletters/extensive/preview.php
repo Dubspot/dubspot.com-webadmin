@@ -1140,7 +1140,7 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
                                                   <?php echo $json['tutorial_1_headline'] ?>
 
                                               </h6>
-                                              <p style="font-size: 12px; margin: 0 0 3px 0; line-height: 16px;">
+                                              <p style="color: white; font-size: 12px; margin: 0 0 3px 0; line-height: 16px;">
 
                                                   <?php echo $json['tutorial_1_body'] ?>
 
@@ -1163,7 +1163,7 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
                                                   <?php echo $json['tutorial_2_headline'] ?>
 
                                               </h6>
-                                              <p style="font-size: 12px; margin: 0 0 3px 0; line-height: 16px;">
+                                              <p style="color: white; font-size: 12px; margin: 0 0 3px 0; line-height: 16px;">
 
                                                   <?php echo $json['tutorial_2_body'] ?>
 
@@ -1187,7 +1187,7 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
                                                   <?php echo $json['tutorial_3_headline'] ?>
 
                                               </h6>
-                                              <p style="font-size: 12px; margin: 0 0 3px 0; line-height: 16px;">
+                                              <p style="color: white; font-size: 12px; margin: 0 0 3px 0; line-height: 16px;">
 
                                                   <?php echo $json['tutorial_3_body'] ?>
 
@@ -1211,7 +1211,7 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
                                                   <?php echo $json['tutorial_4_headline'] ?>
 
                                               </h6>
-                                              <p style="font-size: 12px; margin: 0 0 3px 0; line-height: 16px;">
+                                              <p style="color: white; font-size: 12px; margin: 0 0 3px 0; line-height: 16px;">
 
                                                   <?php echo $json['tutorial_4_body'] ?>
 
@@ -1235,7 +1235,7 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
                                                   <?php echo $json['tutorial_5_headline'] ?>
 
                                               </h6>
-                                              <p style="font-size: 12px; margin: 0 0 3px 0; line-height: 16px;">
+                                              <p style="color: white; font-size: 12px; margin: 0 0 3px 0; line-height: 16px;">
 
                                                   <?php echo $json['tutorial_5_body'] ?>
 
@@ -1275,7 +1275,7 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
                                                   <?php echo $json['artist_1_headline'] ?>
 
                                               </h6>
-                                              <p style="font-size: 12px; margin: 0 0 3px 0; line-height: 16px;">
+                                              <p style="color: white; font-size: 12px; margin: 0 0 3px 0; line-height: 16px;">
 
                                                   <?php echo $json['artist_1_body'] ?>
 
@@ -1298,7 +1298,7 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
                                                   <?php echo $json['artist_2_headline'] ?>
 
                                               </h6>
-                                              <p style="font-size: 12px; margin: 0 0 3px 0; line-height: 16px;">
+                                              <p style="color: white; font-size: 12px; margin: 0 0 3px 0; line-height: 16px;">
 
                                                   <?php echo $json['artist_2_body'] ?>
 
@@ -1322,7 +1322,7 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
                                                   <?php echo $json['artist_3_headline'] ?>
 
                                               </h6>
-                                              <p style="font-size: 12px; margin: 0 0 3px 0; line-height: 16px;">
+                                              <p style="color: white; font-size: 12px; margin: 0 0 3px 0; line-height: 16px;">
 
                                                   <?php echo $json['artist_3_body'] ?>
 
@@ -1346,7 +1346,7 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
                                                   <?php echo $json['artist_4_headline'] ?>
 
                                               </h6>
-                                              <p style="font-size: 12px; margin: 0 0 3px 0; line-height: 16px;">
+                                              <p style="color: white; font-size: 12px; margin: 0 0 3px 0; line-height: 16px;">
 
                                                   <?php echo $json['artist_4_body'] ?>
 
@@ -1370,7 +1370,7 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
                                                   <?php echo $json['artist_5_headline'] ?>
 
                                               </h6>
-                                              <p style="font-size: 12px; margin: 0 0 3px 0; line-height: 16px;">
+                                              <p style="color: white; font-size: 12px; margin: 0 0 3px 0; line-height: 16px;">
 
                                                   <?php echo $json['artist_5_body'] ?>
 
@@ -1396,7 +1396,7 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
                                                   <?php echo $json['artist_6_headline'] ?>
 
                                               </h6>
-                                              <p style="font-size: 12px; margin: 0 0 3px 0; line-height: 16px;">
+                                              <p style="color: white; font-size: 12px; margin: 0 0 3px 0; line-height: 16px;">
 
                                                   <?php echo $json['artist_6_body'] ?>
 
@@ -1430,7 +1430,7 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
                                               <h6 style="font-size: 12px; margin: 0 0 3px 0; line-height: 16px;">
                                                 <?php echo $json['tech_1_headline'] ?>
                                               </h6>
-                                              <p style="font-size: 12px; margin: 0 0 3px 0; line-height: 16px;">
+                                              <p style="color: white; font-size: 12px; margin: 0 0 3px 0; line-height: 16px;">
                                                 <?php echo $json['tech_1_body'] ?>
                                               </p>
                                             </a>
@@ -1449,7 +1449,7 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
                                               <h6 style="font-size: 12px; margin: 0 0 3px 0; line-height: 16px;">
                                                  <?php echo $json['tech_2_headline'] ?>
                                               </h6>
-                                              <p style="font-size: 12px; margin: 0 0 3px 0; line-height: 16px;">
+                                              <p style="color: white; font-size: 12px; margin: 0 0 3px 0; line-height: 16px;">
                                                   <?php echo $json['tech_2_body'] ?>
                                               </p>
                                             </a>
@@ -1469,7 +1469,7 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
                                               <h6 style="font-size: 12px; margin: 0 0 3px 0; line-height: 16px;">
                                                  <?php echo $json['tech_3_headline'] ?>
                                               </h6>
-                                              <p style="font-size: 12px; margin: 0 0 3px 0; line-height: 16px;">
+                                              <p style="color: white; font-size: 12px; margin: 0 0 3px 0; line-height: 16px;">
                                                   <?php echo $json['tech_3_body'] ?>
                                               </p>
                                             </a>
@@ -1489,7 +1489,7 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
                                               <h6 style="font-size: 12px; margin: 0 0 3px 0; line-height: 16px;">
                                                  <?php echo $json['tech_4_headline'] ?>
                                               </h6>
-                                              <p style="font-size: 12px; margin: 0 0 3px 0; line-height: 16px;">
+                                              <p style="color: white; font-size: 12px; margin: 0 0 3px 0; line-height: 16px;">
                                                   <?php echo $json['tech_4_body'] ?>
                                               </p>
                                             </a>
@@ -1509,7 +1509,7 @@ $image_folder = 'http://dubspot.s3.amazonaws.com/Newsletters/' . strtolower("201
                                               <h6 style="font-size: 12px; margin: 0 0 3px 0; line-height: 16px;">
                                                  <?php echo $json['tech_5_headline'] ?>
                                               </h6>
-                                              <p style="font-size: 12px; margin: 0 0 3px 0; line-height: 16px;">
+                                              <p style="color: white; font-size: 12px; margin: 0 0 3px 0; line-height: 16px;">
                                                   <?php echo $json['tech_5_body'] ?>
                                               </p>
                                             </a>

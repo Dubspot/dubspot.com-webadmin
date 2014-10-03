@@ -21,7 +21,7 @@
     body {
       font-size: 14px;
     }
-    
+
     table caption {
       padding: 10px 0;
       font-size: 16px;
@@ -74,4 +74,3 @@ background-color: #8dbdd8;
 
 <div class="row">
 	<div class="large-12 large-centered columns">
-    

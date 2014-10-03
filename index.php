@@ -22,6 +22,7 @@
       <h2>Newsletter Creator</h3>
       <h3><a href="<?php echo $root ?>newsletters/extensive.php">Extensive</a></h3>
       <h3><a href="<?php echo $root ?>newsletters/promo.php">Promo</a></h3>
+      <h3><a href="<?php echo $root ?>newsletters/promo-2.php">Promo 2</a></h3>
     </div>
   </div>
 
